@@ -1,0 +1,25 @@
+<div class="col-xs-12 no-left-pad no-right-pad container" ng-show="questionnaire">
+    <div class="col-xs-12 no-right-pad no-left-pad container">
+        <form class="col-xs-12 no-right-pad no-left-pad container" id="frmQuestionnaire">
+            <div class="col-xs-12 no-right-pad no-left-pad container bottom-borded" style="height:100px;z-index:1;">    <!-- qui definisco un'altezza e il fatto che sia in primo piano -->
+                <div class="col-xs-12 no-right-pad no-left-pad">
+                    <h3 ng-show="questionnaire.title">{{questionnaire.title}}</h3>
+                    <h3 ng-hide="questionnaire.title">&lt;QUESTIONARIO&gt;</h3>
+                </div>
+                <div class="col-xs-12 no-right-pad no-left-pad">
+                    <div class="col-xs-1 no-left-pad">Titolo:</div>
+                    <div class="col-xs-11 no-right-pad"><input type="text" name="title" class="col-xs-12 small-right-pad small-left-pad" ng-model="questionnaire.title" ng-disabled="!editable"></div>
+                </div>
+            </div>
+            <!--div class="col-xs-12 no-right-pad no-left-pad container" style="top:-100px;padding-top:100px;padding-bottom:50px;">    <!-- qui (essendo 100% height) metto un top (di posizione relative) a -altezza dell'altro div, e poi metto un padding della stessa altezza per riallinearlo -->
+            <div class="col-xs-12 no-right-pad no-left-pad" style="position:absolute;top:100px;bottom:100px;">
+                <div class="col-xs-12 no-right-pad no-left-pad container scrollable">
+                    <questions-edit parent="questionnaire" editable="editable" answer-types="answerTypes"></questions-edit>
+                </div>
+            </div>
+            <div class="col-xs-12 no-right-pad no-left-pad top-borded container" style="position:absolute;bottom:0px;z-index:1;height:100px;">
+                <templates-edit class="col-xs-12 no-right-pad no-left-pad container" parent="questionnaire" editable="editable" errors="errors"></templates-edit>
+            </div>
+        </form>
+    </div>
+</div>

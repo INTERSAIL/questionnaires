@@ -1,0 +1,276 @@
+html { height: 100%; width: 100%; margin: 0; }
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.errors-panel {
+    display: none;
+    background: grey;
+    color: #FF7F7F;
+    padding: 10px;
+    position: absolute;
+    z-index: 50;
+}
+
+.container {
+    height: 100%;
+}
+
+.action-bar {
+    background-color: black;
+    height: 36px;
+}
+
+.list {
+    border: 1px black solid;
+}
+
+.list_item {
+    border: 1px black solid;
+    vertical-align: middle;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+
+.selected {
+    background-color: #fa9132;
+}
+
+.odd-row {
+    background-color: #ffffff;
+}
+.even-row {
+    background-color: #dddddd;
+}
+
+.scrollable {
+    overflow-x: scroll;
+}
+
+.question {
+    border: 1px black solid;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.question-description {
+    height: 96px;
+    resize: none;
+}
+
+.answer {
+    border: 1px black solid;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.answer-description {
+    height: 24px;
+    resize: none;
+}
+
+.template {
+    border: 1px black solid;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 85px;
+}
+
+.generic-button {
+    background-size: 24px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 2px;
+    float: right;
+}
+.action-bar-button {
+    background-size: 24px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    width: 70px;
+    height: 28px;
+    top: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.small-button {
+    height: 28px;
+    width: 28px;
+}
+.medium-button {
+    height: 28px;
+    width: 56px;
+}
+.large-button {
+    height: 28px;
+    width: 70px;
+}
+
+.delete-button {
+    background-image: url('/Questionnaires/icons/stop.png');
+}
+.add-button {
+    background-image: url('/Questionnaires/icons/edit_add.png');
+}
+.refresh-button {
+    background-image: url('/Questionnaires/icons/kaboodleloop.png');
+}
+.edit-button {
+    background-image: url('/Questionnaires/icons/DDT.png');
+}
+.save-button {
+    background-image: url('/Questionnaires/icons/3floppy_unmount.png');
+}
+.cancel-button {
+    background-image: url('/Questionnaires/icons/fileclose.png');
+}
+.move-up-button {
+    background-image: url('/Questionnaires/icons/small_up.png');
+}
+.move-up-disabled-button {
+    background-image: url('/Questionnaires/icons/small_up_grayed.png');
+}
+.move-down-button {
+    background-image: url('/Questionnaires/icons/small_down.png');
+}
+.move-down-disabled-button {
+    background-image: url('/Questionnaires/icons/small_down_grayed.png');
+}
+.generic-document-icon {
+    background-image: url('/Questionnaires/icons/DDT.png')
+}
+.pdf-icon {
+    background-image: url('/Questionnaires/icons/pdf_icon.jpg')
+}
+.odt-icon {
+    background-image: url('/Questionnaires/icons/odt-716.png')
+}
+.doc-icon {
+    background-image: url('/Questionnaires/icons/word-icon.png')
+}
+
+.question-image-button {
+    height: 96px;
+    width: 96px;
+    vertical-align: middle;
+}
+.question-image {
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.no-question-image-button {
+    background-image: url('/Questionnaires/icons/black-cross.png');
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 96px;
+    width: 96px;
+}
+.question-image-delete-button {
+    background-image: url('/Questionnaires/icons/stop.png');
+    background-size: 12px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 14px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+
+.template-button-container {
+    height: 36px;
+    width: 36px;
+    vertical-align: middle;
+    margin: auto;
+}
+.template-delete-button {
+    background-image: url('/Questionnaires/icons/stop.png');
+    background-size: 12px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 14px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+.template-icon {
+    height: 36px;
+    width: 36px;
+    background-size: 30px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.template-name-container {
+    width: 90%;
+    height: 35px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.top-pad {
+    padding-top: 5px;
+}
+
+.no-right-pad {
+    padding-right: 0px;
+}
+.small-right-pad {
+    padding-right: 5px;
+}
+
+.no-left-pad {
+    padding-left: 0px;
+}
+.small-left-pad {
+    padding-left: 5px;
+}
+.large-left-pad {
+    padding-left: 20px;
+}
+.very-large-left-pad {
+    padding-left: 40px;
+}
+
+.right-borded {
+    border-right: 2px black solid;
+}
+.top-borded {
+    border-top: 2px black solid;
+}
+.bottom-borded {
+    border-bottom: 2px black solid;
+}
+
+.medium-top-margin {
+    margin-top: 10px;
+}
+.large-top-margin {
+    margin-top: 20px;
+}
+
+.left-aligned {
+    float: left;
+}
+.right-aligned {
+    float: right;
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}

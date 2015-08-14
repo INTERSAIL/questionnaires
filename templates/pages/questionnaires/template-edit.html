@@ -1,0 +1,12 @@
+<div class="col-xs-3">
+    <div class="col-xs-12 container template">
+        <!-- visualizzo immagine e un pulsante per eliminare il template -->
+        <div class="template-button-container">
+            <button class="template-delete-button" title="Elimina template" ng-click="removeTemplate()" ng-show="editable"></button>
+            <a class="template-download" href><img class="col-xs-12 no-right-pad no-left-pad template-icon" ng-class="getTemplateIcon()"></a>
+        </div>
+        <div class="template-name-container scrollable">
+            <div>{{template.name}}</div>
+        </div>
+    </div>
+</div>
