@@ -1,0 +1,6 @@
+<button class="col-xs-12 list_item" ng-class="{'opaque':editable}" ng-disabled="editable">
+    <div class="col-xs-12 no-right-pad no-left-pad bottom-borded-gray">[{{questionnaire.alias}}]</div>
+    <div ng-repeat="revision in questionnaire.revisions" ng-show="questionnaire.revisions">
+        <questionnaire-revision-info questionnaire-revision="revision" editable="editable"></questionnaire-revision-info>
+    </div>
+</button>

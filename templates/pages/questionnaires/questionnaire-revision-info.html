@@ -1,0 +1,8 @@
+<div class="col-xs-12 no-right-pad no-left-pad medium-top-margin" ng-class="{ 'selected':isSelectedQuestionnaire(questionnaireRevision) }" ng-click="!editable && selectQuestionnaire(questionnaireRevision.id)">
+    <div class="col-xs-1 no-right-pad no-left-pad">
+        <img class="col-xs-12 no-right-pad no-left-pad status-icon" ng-class="getStatusIcon()">
+    </div>
+    <div class="col-xs-11" style="text-align: left;">
+        [REV.{{questionnaireRevision.revision}}] {{questionnaireRevision.title}}
+    </div>
+</div>
