@@ -6,7 +6,8 @@ angular.module("Questionnaire")
             scope: {
                 questionnaires: "=",
                 selectedQuestionnaire: "=",
-                editable: "="
+                editable: "=",
+                errors: "="
             },
             controller: 'QuestionnairesListController',
             controllerAs: 'questionnairesCtrl'

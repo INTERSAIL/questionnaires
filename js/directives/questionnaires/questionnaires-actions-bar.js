@@ -7,7 +7,8 @@ angular.module("Questionnaire")
                 questionnaires: "=",
                 questionnaire: "=",
                 editable: "=",
-                errors: "="
+                errors: "=",
+                questionnaireValid: "="
             },
             controller: 'QuestionnairesActionsBarController',
             controllerAs: 'questionnairesCtrl',
@@ -39,6 +40,16 @@ angular.module("Questionnaire")
                         message = "Sei sicuro di voler eliminare il questionario \"" + scope.questionnaire.title + "\"?";
                         requiresUserChoice = true;
                         functionToExecute = function () { scope.deleteQuestionnaire(); };
+                    }
+                    else if (button.classList.contains('valid-button')) {
+                        message = "Sei sicuro di voler validare il questionario \"" + scope.questionnaire.title + "\"? Una volta validato non potr&agrave; essere modificato e sar&agrave; necessario creare una nuova revisione.";
+                        requiresUserChoice = true;
+                        functionToExecute = function () { scope.validateQuestionnaire(); };
+                    }
+                    else if (button.classList.contains('revision-button')) {
+                        message = "Sei sicuro di voler generare una nuova revisione per il questionario \"" + scope.questionnaire.title + "\"?";
+                        requiresUserChoice = true;
+                        functionToExecute = function () { scope.revisionQuestionnaire(); };
                     }
 
                     // creo l'oggetto necessario al YesNoCancelDialog

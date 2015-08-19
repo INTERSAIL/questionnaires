@@ -1,5 +1,11 @@
 angular.module('Questionnaire')
-    .controller('QuestionEditController', ['$http', '$scope', 'PositionHelper', function($http, $scope, PositionHelper) {
+    .controller('QuestionEditController', ['$scope', 'PositionHelper', function($scope, PositionHelper) {
+
+        // questa proprietà è usata nella validazione sul numero di risposte. Se la tipologia della domanda è scelta singola o multipla BISOGNA specificare almeno una risposta,
+        // quindi si può bindare un elemento ad esempio:
+        // <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="!isAnswerTypeEqualTo(question.answer_type, 0) && question.answers.length === 0" style="display:none;">
+        // così da rendere la form non valida se non si inseriscono risposte per quelle due categorie
+        $scope.dummyNoAnswers = null;
 
         // rimuove una domanda
         $scope.removeQuestion = function() {

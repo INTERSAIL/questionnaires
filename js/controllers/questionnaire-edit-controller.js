@@ -13,4 +13,8 @@ angular.module('Questionnaire')
                 $scope.errors = data;
             });
 
+        $scope.setValidity = function(value) {
+            $scope.questionnaireValid = value;
+        };
+
     }]);

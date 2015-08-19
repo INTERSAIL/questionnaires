@@ -38,6 +38,8 @@ angular.module('Questionnaire')
             var newQuestionnaire = {
                 "id": 0,
                 "title": null,
+                "status": 10,
+                "revision": 1,
                 "questions": new Array()
             };
             $scope.questionnaire = newQuestionnaire;
@@ -46,6 +48,7 @@ angular.module('Questionnaire')
 
         // permette di modificare un questionario
         $scope.editQuestionnaire = function() {
+            $scope.questionnaire.status = 10; // lo rimetto in bozza
             $scope.editable = true;
         };
 
@@ -75,6 +78,36 @@ angular.module('Questionnaire')
             QuestionnaireHelper.delete($scope.questionnaire, {
                 successFunction: function(data) {
                     $scope.questionnaire = null;
+                    $scope.errors = null;
+                    $scope.refresh();
+                },
+                errorFunction: function(data) {
+                    $scope.errors = data;
+                }
+            });
+        };
+
+        // mette in stato valid un questionario
+        $scope.validateQuestionnaire = function() {
+            QuestionnaireHelper.validate($scope.questionnaire, {
+                successFunction: function(data) {
+                    $scope.questionnaire = data;
+                    $scope.editable = false;
+                    $scope.errors = null;
+                    $scope.refresh();
+                },
+                errorFunction: function(data) {
+                    $scope.errors = data;
+                }
+            });
+        };
+
+        // crea una revisione di un questionario
+        $scope.revisionQuestionnaire = function() {
+            QuestionnaireHelper.revision($scope.questionnaire, {
+                successFunction: function(data) {
+                    $scope.questionnaire = data;
+                    $scope.editable = false;
                     $scope.errors = null;
                     $scope.refresh();
                 },

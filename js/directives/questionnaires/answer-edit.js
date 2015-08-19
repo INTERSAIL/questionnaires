@@ -7,7 +7,8 @@ angular.module("Questionnaire")
                 answerTypes: "=",
                 question: "=",
                 answer: "=",
-                editable: "="
+                editable: "=",
+                questionLevel: "="
             },
             controller: 'AnswerEditController',
             controllerAs: 'questionnaireCtrl',

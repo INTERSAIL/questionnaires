@@ -2,12 +2,7 @@
     <div class="col-xs-12 no-right-pad no-left-pad">
         <h1>QUESTIONARI</h1>
     </div>
-    <div class="list col-xs-12 no-right-pad no-left-pad" style="position:absolute;top:75px;bottom:0px;">
-        <!--div class="col-xs-12 list_item" ng-show="questionnaires" ng-repeat="questionnaire in questionnaires" ng-class="{ 'selected':isSelectedQuestionnaire(questionnaire) }">
-            <div class="col-xs-12 no-right-pad no-left-pad"><a href ng-click="selectQuestionaire(questionnaire.id)">{{questionnaire.title}}<br>{{questionnaire.identifier}}</a></div>
-        </div-->
-        <button class="col-xs-12 list_item" ng-show="questionnaires" ng-repeat="questionnaire in questionnaires" ng-class="{ 'selected':isSelectedQuestionnaire(questionnaire) }" ng-click="selectQuestionnaire(questionnaire.id)" ng-disabled="editable">
-            <div class="col-xs-12 no-right-pad no-left-pad">{{questionnaire.title}}<br>{{questionnaire.identifier}}</a></div>
-        </button>
+    <div class="list col-xs-12 no-right-pad no-left-pad scrollable" style="position:absolute;top:75px;bottom:0px;">
+        <questionnaires-info class="col-xs-12 no-right-pad no-left-pad container" questionnaires="questionnaires" selected-questionnaire="selectedQuestionnaire" editable="editable" errors="errors"></questionnaires-info>
     </div>
 </div>

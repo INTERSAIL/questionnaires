@@ -28,7 +28,7 @@ body {
 }
 
 .list {
-    border: 1px black solid;
+    border: 0px black solid;
 }
 
 .list_item {
@@ -37,17 +37,26 @@ body {
     padding: 7px;
     border-radius: 7px;
     background-color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.status-icon {
+    height: 24px;
+    width: 24px;
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .selected {
     background-color: #fa9132;
 }
 
-.odd-row {
-    background-color: #ffffff;
+.odd-level {
+    background-color: #eeeeee;
 }
-.even-row {
-    background-color: #dddddd;
+.even-level {
+    background-color: #bbbbbb;
 }
 
 .scrollable {
@@ -63,6 +72,10 @@ body {
 .question-description {
     height: 96px;
     resize: none;
+}
+
+.missing-answers {
+    color: #FA787E;
 }
 
 .answer {
@@ -131,6 +144,12 @@ body {
 .save-button {
     background-image: url('/Questionnaires/icons/3floppy_unmount.png');
 }
+.valid-button {
+    background-image: url('/Questionnaires/icons/accept.png');
+}
+.revision-button {
+    background-image: url('/Questionnaires/icons/newfont_32.png');
+}
 .cancel-button {
     background-image: url('/Questionnaires/icons/fileclose.png');
 }
@@ -148,6 +167,15 @@ body {
 }
 .generic-document-icon {
     background-image: url('/Questionnaires/icons/DDT.png')
+}
+.draft-icon {
+    background-image: url('/Questionnaires/icons/configure.png');
+}
+.valid-icon {
+    background-image: url('/Questionnaires/icons/accept.png');
+}
+.revision-icon {
+    background-image: url('/Questionnaires/icons/newfont_32.png');
 }
 .pdf-icon {
     background-image: url('/Questionnaires/icons/pdf_icon.jpg')
@@ -256,6 +284,9 @@ body {
 .bottom-borded {
     border-bottom: 2px black solid;
 }
+.bottom-borded-gray {
+    border-bottom: 2px lightgray solid;
+}
 
 .medium-top-margin {
     margin-top: 10px;
@@ -271,6 +302,17 @@ body {
     float: right;
 }
 
+.opaque {
+    opacity: 0.3;
+}
+
 .no-close .ui-dialog-titlebar-close {
     display: none;
+}
+
+.ng-invalid {
+    border-color: #FA787E;
+}
+.ng-valid {
+    border-color: #78FA89;
 }

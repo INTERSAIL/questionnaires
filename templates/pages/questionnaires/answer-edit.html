@@ -1,22 +1,22 @@
-<div class="col-xs-12 answer" ng-class="(answer.position+1) % 2 === 0 ? 'even-row' : 'odd-row'">
+<div class="col-xs-12 answer" ng-class="(questionLevel+1) % 2 === 0 ? 'even-level' : 'odd-level'">
     <div class="col-xs-12 no-right-pad no-left-pad">
         <!-- numero della risposta -->
         <div class="col-xs-1 no-left-pad">{{answer.position + 1}})</div>
         <!-- descrizione della risposta -->
-        <div class="col-xs-8"><textarea name="description" class="col-xs-12 small-right-pad small-left-pad answer-description" ng-model="answer.description" ng-disabled="!editable"></textarea></div>
+        <div class="col-xs-8"><textarea name="description" class="col-xs-12 small-right-pad small-left-pad answer-description" ng-model="answer.description" placeholder="Inserisci qui la descrizione della risposta...." ng-disabled="!editable" required></textarea></div>
         <div class="col-xs-3 no-right-pad">
             <div style="float:right;" ng-show="editable">
                 <!-- pulsante per eliminare la risposta -->
                 <button class="col-xs-3 generic-button delete-button medium-button left-aligned" title="Elimina risposta" ng-click="removeAnswer(answer, question)"></button>
                 <!-- pulsante per spostare la risposta ad una posizione precedente -->
-                <button class="col-xs-3 generic-button medium-button left-aligned" ng-class="(answer.position === 0) ? 'move-up-disabled-button' : 'move-up-button'" title="Sposta risposta prima" ng-click="moveUpAnswer(answer, question)" ng-disabled="answer.position === 0"></button>
+                <button class="col-xs-3 generic-button medium-button left-aligned move-up-button" ng-class="{'opaque':answer.position === 0}" title="Sposta risposta prima" ng-click="moveUpAnswer(answer, question)" ng-disabled="answer.position === 0"></button>
                 <!-- pulsante per spostare la risposta ad una posizione successiva -->
-                <button class="col-xs-3 generic-button medium-button left-aligned" ng-class="(answer.position === question.answers.length-1) ? 'move-down-disabled-button' : 'move-down-button'" title="Sposta risposta dopo" ng-click="moveDownAnswer(answer, question)" ng-disabled="answer.position === question.answers.length-1"></button>
+                <button class="col-xs-3 generic-button medium-button left-aligned move-down-button" ng-class="{'opaque':answer.position === question.answers.length-1}" title="Sposta risposta dopo" ng-click="moveDownAnswer(answer, question)" ng-disabled="answer.position === question.answers.length-1"></button>
             </div>
         </div>
     </div>
     <!-- sottodomande -->
     <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin">
-        <questions-edit parent="answer" editable="editable" answer-types="answerTypes"></questions-edit>
+        <questions-edit parent="answer" editable="editable" answer-types="answerTypes" question-level="questionLevel+1"></questions-edit>
     </div>
 </div>

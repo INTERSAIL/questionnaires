@@ -7,7 +7,8 @@ angular.module("Questionnaire")
                 answerTypes: "=",
                 parent: "=",
                 question: "=",
-                editable: "="
+                editable: "=",
+                questionLevel: "="
             },
             controller: 'QuestionEditController',
             controllerAs: 'questionnaireCtrl',
@@ -27,7 +28,6 @@ angular.module("Questionnaire")
                         fr.onload = (function(file) {
                             return function(e) {
                                 scope.$apply(function(){ // per aggiornare l'interfaccia è necessario chiamare il $apply
-                                    //scope.question.image = e.target.result.replace("data:image/png;base64,", "");
                                     scope.question.image = FileHelper.getData(e.target.result);
                                 });
                             };

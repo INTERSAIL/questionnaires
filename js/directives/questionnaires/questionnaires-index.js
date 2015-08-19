@@ -7,7 +7,8 @@ angular.module("Questionnaire")
                 questionnaires: "=",
                 questionnaire: "=",
                 editable: "=",
-                errors: "="
+                errors: "=",
+                questionnaireValid: "="
             },
             controller: 'QuestionnairesIndexController',
             controllerAs: 'questionnairesCtrl'

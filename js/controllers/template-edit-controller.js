@@ -1,5 +1,5 @@
 angular.module('Questionnaire')
-    .controller('TemplateEditController', ['$scope', 'TemplateHelper', 'FileHelper', function($scope, TemplateHelper, FileHelper) {
+    .controller('TemplateEditController', ['$scope', function($scope) {
 
         $scope.removeTemplate = function() {
             var templateIndex = $scope.parent.templates.indexOf($scope.template);

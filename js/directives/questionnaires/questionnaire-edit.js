@@ -6,9 +6,15 @@ angular.module("Questionnaire")
             scope: {
                 questionnaire: "=",
                 editable: "=",
-                errors: "="
+                errors: "=",
+                questionnaireValid: "="
             },
             controller: 'QuestionnaireEditController',
-            controllerAs: 'questionnaireCtrl'
+            controllerAs: 'questionnaireCtrl',
+            link: function(scope, element, attrs) {
+                scope.$watch('frmQuestionnaire.$valid', function(validity) {
+                    scope.questionnaireValid = validity;
+                });
+            }
         };
     });

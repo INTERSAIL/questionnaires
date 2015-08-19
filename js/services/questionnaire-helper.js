@@ -59,6 +59,28 @@ angular.module("Questionnaire")
                         if (handlers && handlers.hasOwnProperty('errorFunction'))
                             handlers.errorFunction(data);
                     });
+            },
+            validate: function(questionnaire, handlers) {
+                $http({ method: 'PUT', url: 'http://wrkdev-mcrescini:8000/questionnaires/' + questionnaire.id.toString() + '/validate', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
+                    .success(function(data, status, headers, config) {
+                        if (handlers && handlers.hasOwnProperty('successFunction'))
+                            handlers.successFunction(data);
+                    })
+                    .error(function(data, status, headers, config) {
+                        if (handlers && handlers.hasOwnProperty('errorFunction'))
+                            handlers.errorFunction(data);
+                    });
+            },
+            revision: function(questionnaire, handlers) {
+                $http({ method: 'PUT', url: 'http://wrkdev-mcrescini:8000/questionnaires/' + questionnaire.id.toString() + '/revision', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
+                    .success(function(data, status, headers, config) {
+                        if (handlers && handlers.hasOwnProperty('successFunction'))
+                            handlers.successFunction(data);
+                    })
+                    .error(function(data, status, headers, config) {
+                        if (handlers && handlers.hasOwnProperty('errorFunction'))
+                            handlers.errorFunction(data);
+                    });
             }
         };
     }]);

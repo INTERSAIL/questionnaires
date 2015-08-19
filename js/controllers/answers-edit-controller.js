@@ -1,5 +1,5 @@
 angular.module('Questionnaire')
-    .controller('AnswersEditController', ['$http', '$scope', 'PositionHelper', function($http, $scope, PositionHelper) {
+    .controller('AnswersEditController', ['$scope', 'PositionHelper', function($scope, PositionHelper) {
 
         // aggiunge una nuova risposta ad una domanda
         $scope.addNewAnswer = function() {

@@ -1,4 +1,4 @@
-<div class="col-xs-12 question" ng-class="(question.position+1) % 2 === 0 ? 'even-row' : 'odd-row'">
+<div class="col-xs-12 question" ng-class="(questionLevel+1) % 2 === 0 ? 'even-level' : 'odd-level'">
     <div class="col-xs-12 no-right-pad no-left-pad">
         <div class="col-xs-2 no-left-pad">
             <!-- numero della domanda -->
@@ -17,15 +17,15 @@
             </div>
         </div>
         <!-- descrizione della domanda -->
-        <div class="col-xs-9"><textarea name="description" class="col-xs-12 small-right-pad small-left-pad question-description" ng-model="question.description" ng-disabled="!editable"></textarea></div>
+        <div class="col-xs-9"><textarea name="description" class="col-xs-12 small-right-pad small-left-pad question-description" ng-model="question.description" placeholder="Inserisci qui la descrizione della domanda...." ng-disabled="!editable" ng-required="questionLevel > 0"></textarea></div>
         <div class="col-xs-1 no-right-pad">
             <div ng-show="editable">
                 <!-- pulsante per eliminare la domanda -->
                 <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button delete-button medium-button" title="Elimina domanda" ng-click="removeQuestion()"></button></div>
                 <!-- pulsante per spostare la domanda ad una posizione precedente -->
-                <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button" ng-class="(question.position === 0) ? 'move-up-disabled-button' : 'move-up-button'" title="Sposta domanda prima" ng-click="moveUpQuestion()" ng-disabled="question.position === 0"></button></div>
+                <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button move-up-button" ng-class="{'opaque':question.position === 0}" title="Sposta domanda prima" ng-click="moveUpQuestion()" ng-disabled="question.position === 0"></button></div>
                 <!-- pulsante per spostare la domanda ad una posizione successiva -->
-                <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button" ng-class="(question.position === parent.questions.length-1) ? 'move-down-disabled-button' : 'move-down-button'" title="Sposta domanda dopo" ng-click="moveDownQuestion()" ng-disabled="question.position === parent.questions.length-1"></button></div>
+                <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button move-down-button" ng-class="{'opaque':question.position === parent.questions.length-1}" title="Sposta domanda dopo" ng-click="moveDownQuestion()" ng-disabled="question.position === parent.questions.length-1"></button></div>
             </div>
         </div>
     </div>
@@ -50,7 +50,8 @@
         <div class="col-xs-1 no-right-pad"></div>
     </div>
     <!-- risposte -->
+    <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="!isAnswerTypeEqualTo(question.answer_type, 0) && question.answers.length === 0" style="display:none;">
     <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin">
-        <answers-edit question="question" ng-hide="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" answer-types="answerTypes"></answers-edit>
+        <answers-edit question="question" ng-hide="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" answer-types="answerTypes" question-level="questionLevel"></answers-edit>
     </div>
 </div>

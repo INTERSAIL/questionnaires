@@ -1,5 +1,5 @@
 angular.module('Questionnaire')
-    .controller('AnswerEditController', ['$http', '$scope', 'PositionHelper', function($http, $scope, PositionHelper) {
+    .controller('AnswerEditController', ['$scope', 'PositionHelper', function($scope, PositionHelper) {
 
         // rimuove una risposta da una domanda
         $scope.removeAnswer = function() {

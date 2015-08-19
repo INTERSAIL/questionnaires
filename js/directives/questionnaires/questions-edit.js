@@ -6,7 +6,8 @@ angular.module("Questionnaire")
             scope: {
                 answerTypes: "=",
                 parent: "=",
-                editable: "="
+                editable: "=",
+                questionLevel: "="
             },
             controller: 'QuestionsEditController',
             controllerAs: 'questionnaireCtrl',

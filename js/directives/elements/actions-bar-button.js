@@ -6,7 +6,8 @@ angular.module("Questionnaire")
             scope: {
                 imageClass: "@",
                 tooltip: "@",
-                visible: "="
+                visible: "=",
+                enabled: "="
             },
             link: function(scope, element, attrs) {
                 element.find("button.action-bar-button").addClass(scope.imageClass);
