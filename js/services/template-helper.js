@@ -1,5 +1,5 @@
 angular.module("Questionnaire")
-    .factory('TemplateHelper', ['$http', 'FileHelper', function($http, FileHelper){
+    .factory('TemplateHelper', ['$http', 'configuration', 'FileHelper', function($http, configuration, FileHelper){
         var buildTemplate = function(name, type, data) {
             return {
                 "name": name,
@@ -9,7 +9,7 @@ angular.module("Questionnaire")
         };
         return {
             loadTemplate: function(name, type, data, parent, handlers) {
-                $http({ method: 'POST', url: 'http://wrkdev-mcrescini:8000/questionnaire_templates/save', data: buildTemplate(name, type, data) })
+                $http({ method: 'POST', url: configuration.questionnaire_templates_controller_url + 'save', data: buildTemplate(name, type, data) })
                     .success(function(data, status, headers, config) {
                         if (!parent.templates)
                             parent.templates = [];
@@ -23,7 +23,7 @@ angular.module("Questionnaire")
                     });
             },
             downloadTemplate: function(templateId, handlers) {
-                $http({ method: 'GET', url: 'http://wrkdev-mcrescini:8000/questionnaire_templates/' + templateId.toString() })
+                $http({ method: 'GET', url: configuration.questionnaire_templates_controller_url + templateId.toString() })
                     .success(function(data, status, headers, config) {
                         if (handlers && handlers.hasOwnProperty("successFunction"))
                             handlers.successFunction(data);

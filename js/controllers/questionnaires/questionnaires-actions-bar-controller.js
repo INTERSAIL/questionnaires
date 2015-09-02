@@ -69,8 +69,15 @@ angular.module('Questionnaire')
 
         // annulla le modifiche fatte ad un questionario
         $scope.undoQuestionnaire = function() {
-            $scope.editable = false;
-            $scope.refresh();
+            QuestionnaireHelper.cancel($scope.questionnaire.id, {
+                successFunction: function(data) {
+                    $scope.editable = false;
+                    $scope.refresh();
+                },
+                errorFunction: function(data) {
+                    $scope.errors = data;
+                }
+            });
         };
 
         // elimina un questionario

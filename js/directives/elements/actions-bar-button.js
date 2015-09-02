@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("actionsBarButton", function(configuration_root) {
+    .directive("actionsBarButton", function(configuration) {
         return {
             restrict: 'E',
-            templateUrl: configuration_root + '/templates/elements/actions-bar-button.html',
+            templateUrl: configuration.root + '/templates/elements/actions-bar-button.html',
             scope: {
                 imageClass: "@",
                 tooltip: "@",

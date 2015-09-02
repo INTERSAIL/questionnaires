@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .factory('QuestionnaireHelper', ['$http', function($http){
+    .factory('QuestionnaireHelper', ['$http', 'configuration', function($http, configuration){
         return {
             list: function(handlers) {
-                $http({ method: 'GET', url: 'http://wrkdev-mcrescini:8000/questionnaires/' })
+                $http({ method: 'GET', url: configuration.questionnaires_controller_url })
                     .success(function(data, status, headers, config) {
                         if (handlers && handlers.hasOwnProperty('successFunction'))
                             handlers.successFunction(data);
@@ -13,7 +13,7 @@ angular.module("Questionnaire")
                     });
             },
             read: function(questionnaireId, handlers) {
-                $http({ method: 'GET', url: 'http://wrkdev-mcrescini:8000/questionnaires/' + questionnaireId.toString() })
+                $http({ method: 'GET', url: configuration.questionnaires_controller_url + questionnaireId.toString() })
                     .success(function(data, status, headers, config) {
                         if (handlers && handlers.hasOwnProperty('successFunction'))
                             handlers.successFunction(data);
@@ -26,7 +26,7 @@ angular.module("Questionnaire")
             save: function(questionnaire, handlers) {
                 if (questionnaire.id <= 0) {
                     // questionario nuovo: chiamo tramite POST
-                    $http({ method: 'POST', url: 'http://wrkdev-mcrescini:8000/questionnaires/', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
+                    $http({ method: 'POST', url: configuration.questionnaires_controller_url, headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
                         .success(function(data, status, headers, config) {
                             if (handlers && handlers.hasOwnProperty('successFunction'))
                                 handlers.successFunction(data);
@@ -38,7 +38,7 @@ angular.module("Questionnaire")
                 }
                 else {
                     // questionario già esistente: chiamo tramite PUT
-                    $http({ method: 'PUT', url: 'http://wrkdev-mcrescini:8000/questionnaires/' + questionnaire.id.toString(), headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
+                    $http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString(), headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
                         .success(function(data, status, headers, config) {
                             if (handlers && handlers.hasOwnProperty('successFunction'))
                                 handlers.successFunction(data);
@@ -50,7 +50,18 @@ angular.module("Questionnaire")
                 }
             },
             delete: function(questionnaire, handlers) {
-                $http({ method: 'DELETE', url: 'http://wrkdev-mcrescini:8000/questionnaires/' + questionnaire.id.toString() })
+                $http({ method: 'DELETE', url: configuration.questionnaires_controller_url + questionnaire.id.toString() })
+                    .success(function(data, status, headers, config) {
+                        if (handlers && handlers.hasOwnProperty('successFunction'))
+                            handlers.successFunction(data);
+                    })
+                    .error(function(data, status, headers, config) {
+                        if (handlers && handlers.hasOwnProperty('errorFunction'))
+                            handlers.errorFunction(data);
+                    });
+            },
+            cancel: function(questionnaireId, handlers) {
+                $http({ method: 'POST', url: configuration.questionnaires_controller_url + questionnaireId.toString() + '/cancel' })
                     .success(function(data, status, headers, config) {
                         if (handlers && handlers.hasOwnProperty('successFunction'))
                             handlers.successFunction(data);
@@ -61,7 +72,7 @@ angular.module("Questionnaire")
                     });
             },
             validate: function(questionnaire, handlers) {
-                $http({ method: 'PUT', url: 'http://wrkdev-mcrescini:8000/questionnaires/' + questionnaire.id.toString() + '/validate', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
+                $http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString() + '/validate', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
                     .success(function(data, status, headers, config) {
                         if (handlers && handlers.hasOwnProperty('successFunction'))
                             handlers.successFunction(data);
@@ -72,7 +83,7 @@ angular.module("Questionnaire")
                     });
             },
             revision: function(questionnaire, handlers) {
-                $http({ method: 'PUT', url: 'http://wrkdev-mcrescini:8000/questionnaires/' + questionnaire.id.toString() + '/revision', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
+                $http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString() + '/revision', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
                     .success(function(data, status, headers, config) {
                         if (handlers && handlers.hasOwnProperty('successFunction'))
                             handlers.successFunction(data);

@@ -11,6 +11,6 @@
     <div class="col-xs-12 no-right-pad no-left-pad medium-top-margin" ng-show="editable">
         <!-- pulsante per aggiungere una domanda -->
         <div class="col-xs-1 no-left-pad"><button class="col-xs-12 generic-button add-button medium-button left-aligned" title="Aggiungi domanda" ng-click="addNewQuestion()"></button></div>
-        <div class="col-xs-11 no-right-pad"></div>
+        <div class="col-xs-11 no-right-pad">{{ questionLevel === 0 ? 'Aggiungi una nuova domanda al questionario' : 'Aggiungi una nuova domanda alla risposta "' + parent.description + '"' }}</div>
     </div>
 </div>
