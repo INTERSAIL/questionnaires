@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("textAnswersInstanceEdit", function(configuration, RecursionHelper) {
+    .directive("textAnswersInstanceEdit", function(RecursionHelper) {
         return {
             restrict: 'E',
-            templateUrl: configuration.root + '/templates/pages/questionnaire_instances/text-answers-instance-edit.html',
+            templateUrl: 'templates/pages/questionnaire_instances/text-answers-instance-edit.html',
             scope: {
                 question: "=",
                 editable: "=",

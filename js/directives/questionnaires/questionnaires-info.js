@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("questionnairesInfo", function(configuration) {
+    .directive("questionnairesInfo", function() {
         return {
             restrict: 'E',
-            templateUrl: configuration.root + '/templates/pages/questionnaires/questionnaires-info.html',
+            templateUrl: 'templates/pages/questionnaires/questionnaires-info.html',
             scope: {
                 questionnaires: "=",
                 selectedQuestionnaire: "=",

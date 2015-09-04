@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="Questionnaire">
 <head>
-    <base href="">
+    <base href="../../../../">
 
     <link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css" />
     <link rel="stylesheet" href="external/css/jquery-ui.css">
@@ -84,7 +84,8 @@
     <link rel="stylesheet" type="text/css" href="css/questionnaire.css" />
     <link rel="stylesheet" type="text/css" href="css/questionnaire-instance.css" />
 </head>
-<body>
-    <div class="col-xs-12 no-right-pad no-left-pad container" ng-view></div>
+<body ng-controller="QuestionnairesController">
+    <error-panel errors="errors"></error-panel>
+    <questionnaires-index class="col-xs-12 no-left-pad no-right-pad container" questionnaires="questionnaires" questionnaire="selectedQuestionnaire" questionnaire-valid="selectedQuestionnaireValid" editable="isEdit" errors="errors"></questionnaires-index>
 </body>
 </html>

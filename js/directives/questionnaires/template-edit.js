@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("templateEdit", function(configuration, TemplateHelper) {
+    .directive("templateEdit", function(TemplateHelper) {
         return {
             restrict: 'E',
-            templateUrl: configuration.root + '/templates/pages/questionnaires/template-edit.html',
+            templateUrl: 'templates/pages/questionnaires/template-edit.html',
             scope: {
                 template: "=",
                 parent: "=",

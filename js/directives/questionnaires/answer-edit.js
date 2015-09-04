@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("answerEdit", function(configuration) {
+    .directive("answerEdit", function() {
         return {
             restrict: 'E',
-            templateUrl: configuration.root + '/templates/pages/questionnaires/answer-edit.html',
+            templateUrl: 'templates/pages/questionnaires/answer-edit.html',
             scope: {
                 answerTypes: "=",
                 question: "=",

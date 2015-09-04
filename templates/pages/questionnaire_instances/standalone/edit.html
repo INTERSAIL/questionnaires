@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html ng-app="Questionnaire">
 <head>
-    <link rel="stylesheet" type="text/css" href="../../../../external/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../../../../external/css/jquery-ui.css">
+    <base href="../../../../">
 
-    <script type="text/javascript" src="../../../../external/js/jquery.min.js"></script>
-    <script type="text/javascript" src="../../../../external/js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="external/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="external/css/jquery-ui.css">
 
-    <script type="text/javascript" src="../../../../external/js/angular.min.js"></script>
-    <script type="text/javascript" src="../../../../external/js/angular-route.js"></script>
+    <script type="text/javascript" src="external/js/jquery.min.js"></script>
+    <script type="text/javascript" src="external/js/jquery-ui.min.js"></script>
 
-    <script type="text/javascript" src="../../../../js/app.js"></script>
+    <script type="text/javascript" src="external/js/angular.min.js"></script>
+    <script type="text/javascript" src="external/js/angular-route.js"></script>
 
-    <script type="text/javascript" src="../../../../configuration.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 
-    <script type="text/javascript" src="../../../../js/services/questionnaire-instance-helper.js"></script>
-    <script type="text/javascript" src="../../../../js/services/recursion-helper.js"></script>
-    <script type="text/javascript" src="../../../../js/services/yes-no-cancel-dialog.js"></script>
+    <script type="text/javascript" src="configuration.js"></script>
 
-    <script type="text/javascript" src="../../../../js/directives/elements/actions-bar-button.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/elements/error-panel.js"></script>
+    <script type="text/javascript" src="js/services/questionnaire-instance-helper.js"></script>
+    <script type="text/javascript" src="js/services/recursion-helper.js"></script>
+    <script type="text/javascript" src="js/services/yes-no-cancel-dialog.js"></script>
 
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/questionnaire-instances-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/questionnaire-instances-actions-bar-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/questionnaire-instance-edit-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/questions-instance-edit-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/question-instance-edit-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/answers-instance-edit-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/single-choice-answers-instance-edit-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/multiple-choice-answers-instance-edit-controller.js"></script>
-    <script type="text/javascript" src="../../../../js/controllers/questionnaire_instances/text-answers-instance-edit-controller.js"></script>
+    <script type="text/javascript" src="js/directives/elements/actions-bar-button.js"></script>
+    <script type="text/javascript" src="js/directives/elements/error-panel.js"></script>
 
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/questionnaire-instance-edit.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/questionnaire-instances-actions-bar.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/questions-instance-edit.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/question-instance-edit.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/answers-instance-edit.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/single-choice-answers-instance-edit.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js"></script>
-    <script type="text/javascript" src="../../../../js/directives/questionnaire_instances/text-answers-instance-edit.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/questionnaire-instances-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/questionnaire-instances-actions-bar-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/questionnaire-instance-edit-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/questions-instance-edit-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/question-instance-edit-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/answers-instance-edit-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/single-choice-answers-instance-edit-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/multiple-choice-answers-instance-edit-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/questionnaire_instances/text-answers-instance-edit-controller.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="../../../../css/app.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../css/icons.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../css/actions-bar.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../css/questionnaire-instance.css" />
+    <script type="text/javascript" src="js/directives/questionnaire_instances/questionnaire-instance-edit.js"></script>
+    <script type="text/javascript" src="js/directives/questionnaire_instances/questionnaire-instances-actions-bar.js"></script>
+    <script type="text/javascript" src="js/directives/questionnaire_instances/questions-instance-edit.js"></script>
+    <script type="text/javascript" src="js/directives/questionnaire_instances/question-instance-edit.js"></script>
+    <script type="text/javascript" src="js/directives/questionnaire_instances/answers-instance-edit.js"></script>
+    <script type="text/javascript" src="js/directives/questionnaire_instances/single-choice-answers-instance-edit.js"></script>
+    <script type="text/javascript" src="js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js"></script>
+    <script type="text/javascript" src="js/directives/questionnaire_instances/text-answers-instance-edit.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link rel="stylesheet" type="text/css" href="css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/actions-bar.css" />
+    <link rel="stylesheet" type="text/css" href="css/questionnaire-instance.css" />
 </head>
 <body ng-controller="QuestionnaireInstancesController">
     <!--div class="col-xs-12 no-right-pad no-left-pad container" ng-view></div-->

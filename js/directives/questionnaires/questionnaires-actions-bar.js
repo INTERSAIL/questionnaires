@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("questionnairesActionsBar", function(configuration, YesNoCancelDialog) {
+    .directive("questionnairesActionsBar", function(YesNoCancelDialog) {
         return {
             restrict: 'E',
-            templateUrl: configuration.root + '/templates/pages/questionnaires/questionnaires-actions-bar.html',
+            templateUrl: 'templates/pages/questionnaires/questionnaires-actions-bar.html',
             scope: {
                 questionnaires: "=",
                 questionnaire: "=",

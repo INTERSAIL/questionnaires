@@ -1,93 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="Added revision's management">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/actions-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/js/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/js/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/answers-instance-edit-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/answers-instance-edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/configuration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/css/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/js/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/multiple-choice-answers-instance-edit-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/question-instance-edit-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/question-instance-edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instance-edit-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instance-edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/questionnaire-instance-helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/questionnaire-instance.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-actions-bar-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instances-actions-bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instances-actions-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/questionnaire.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/questions-instance-edit-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/questions-instance-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/questions-instance-edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/single-choice-answers-instance-edit-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/single-choice-answers-instance-edit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers/questionnaire_instances/text-answers-instance-edit-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/text-answers-instance-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/text-answers-instance-edit.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/constants/configuration.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/answer-edit-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/answer-edit-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/answers-edit-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/answers-edit-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/question-edit-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaire-edit-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaire-edit-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaire-info-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaire-info-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaire-revision-info-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaire-revision-info-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaires-actions-bar-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-actions-bar-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaires-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaires-index-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-index-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaires-info-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-info-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questionnaires-list-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-list-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/questions-edit-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/questions-edit-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/template-edit-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/template-edit-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/controllers/templates-edit-controller.js" afterPath="$PROJECT_DIR$/js/controllers/questionnaires/templates-edit-controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/routes.js" afterPath="$PROJECT_DIR$/js/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/icons/Thumbs.db" afterPath="$PROJECT_DIR$/icons/Thumbs.db" />
+    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/standalone/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/elements/actions-bar-button.js" afterPath="$PROJECT_DIR$/js/directives/elements/actions-bar-button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/answer-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/answer-edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/answer-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/answer-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/answers-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/answers-edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/answers-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/answers-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/app.css" afterPath="$PROJECT_DIR$/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/answers-instance-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/answers-instance-edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.js" afterPath="$PROJECT_DIR$/configuration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/elements/error-panel.js" afterPath="$PROJECT_DIR$/js/directives/elements/error-panel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/question-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/question-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/question-instance-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/question-instance-edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questionnaire-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questionnaire-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/questionnaire-helper.js" afterPath="$PROJECT_DIR$/js/services/questionnaire-helper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questionnaire-info.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questionnaire-info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-revision-info.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-revision-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instance-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instance-edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instances-actions-bar.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instances-actions-bar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questionnaire-revision-info.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questionnaire-revision-info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaires-actions-bar.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaires-actions-bar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-actions-bar.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-actions-bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaires-index.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaires-index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-index.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-info.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaires-list.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/questionnaires-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-list.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questionnaires-list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/questions-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/questions-edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/questions-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/questions-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/template-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/template-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/questions-instance-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/questions-instance-edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/single-choice-answers-instance-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/single-choice-answers-instance-edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/template-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/template-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/template-helper.js" afterPath="$PROJECT_DIR$/js/services/template-helper.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/templates-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/templates-edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaire_instances/text-answers-instance-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaire_instances/text-answers-instance-edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js" afterPath="$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js" />
     </list>
@@ -112,31 +53,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="questionnaires-actions-bar-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-actions-bar-controller.js">
+      <file leaf-file-name="actions-bar-button.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/directives/elements/actions-bar-button.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1980">
-              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questionnaire-helper.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/services/questionnaire-helper.js">
+      <file leaf-file-name="error-panel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/directives/elements/error-panel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8245614" vertical-offset="240" max-vertical-offset="1530">
-              <caret line="63" column="90" selection-start-line="62" selection-start-column="57" selection-end-line="63" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questionnaire-instances-actions-bar-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-actions-bar-controller.js">
+      <file leaf-file-name="yes-no-radio-button.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="855">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1425">
+              <caret line="32" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/standalone/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0541517" vertical-offset="174" max-vertical-offset="1440">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="251" />
               <folding />
             </state>
           </provider>
@@ -152,44 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="questionnaires-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-controller.js">
+      <file leaf-file-name="edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="yes-no-cancel-dialog.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/services/yes-no-cancel-dialog.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding>
-                <marker date="1439555163000" expanded="true" signature="190:290" placeholder="..." />
-                <marker date="1439555163000" expanded="true" signature="571:583" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="0" column="11" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questionnaire-instance-helper.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/services/questionnaire-instance-helper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="870">
-              <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,18 +136,18 @@
       <file leaf-file-name="edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="885">
-              <caret line="25" column="143" selection-start-line="25" selection-start-column="143" selection-end-line="25" selection-end-column="143" />
+            <state vertical-scroll-proportion="-22.833334" vertical-offset="187" max-vertical-offset="915">
+              <caret line="49" column="53" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error-panel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directives/elements/error-panel.js">
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -232,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" />
         <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/text-answers-instance-edit.html" />
         <option value="$PROJECT_DIR$/js/external/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/js/external/jquery-ui.css" />
@@ -242,7 +178,6 @@
         <option value="$PROJECT_DIR$/js/external/js/angular.min.js" />
         <option value="$PROJECT_DIR$/js/external/readme.txt" />
         <option value="$PROJECT_DIR$/js/external/js/angular-route.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaires/questionnaire-edit-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/multiple-choice-answers-instance-edit-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/question-instance-edit-controller.js" />
@@ -250,8 +185,16 @@
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/questions-instance-edit-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/single-choice-answers-instance-edit-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/text-answers-instance-edit-controller.js" />
-        <option value="$PROJECT_DIR$/js/directives/elements/actions-bar-button.js" />
-        <option value="$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js" />
+        <option value="$PROJECT_DIR$/js/constants/configuration.js" />
+        <option value="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-controller.js" />
+        <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-controller.js" />
+        <option value="$PROJECT_DIR$/js/routes.js" />
+        <option value="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-actions-bar-controller.js" />
+        <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-actions-bar-controller.js" />
+        <option value="$PROJECT_DIR$/js/services/questionnaire-instance-helper.js" />
+        <option value="$PROJECT_DIR$/js/services/questionnaire-helper.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html" />
         <option value="$PROJECT_DIR$/js/directives/questionnaire_instances/answers-instance-edit.js" />
         <option value="$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js" />
         <option value="$PROJECT_DIR$/js/directives/questionnaire_instances/question-instance-edit.js" />
@@ -273,16 +216,11 @@
         <option value="$PROJECT_DIR$/js/directives/questionnaires/questions-edit.js" />
         <option value="$PROJECT_DIR$/js/directives/questionnaires/template-edit.js" />
         <option value="$PROJECT_DIR$/js/directives/questionnaires/templates-edit.js" />
-        <option value="$PROJECT_DIR$/js/constants/configuration.js" />
-        <option value="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-controller.js" />
-        <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-controller.js" />
-        <option value="$PROJECT_DIR$/js/routes.js" />
+        <option value="$PROJECT_DIR$/configuration.js" />
+        <option value="$PROJECT_DIR$/js/directives/elements/actions-bar-button.js" />
         <option value="$PROJECT_DIR$/js/directives/elements/error-panel.js" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html" />
-        <option value="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-actions-bar-controller.js" />
-        <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-actions-bar-controller.js" />
-        <option value="$PROJECT_DIR$/js/services/questionnaire-instance-helper.js" />
-        <option value="$PROJECT_DIR$/js/services/questionnaire-helper.js" />
+        <option value="$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaires/standalone/index.html" />
       </list>
     </option>
   </component>
@@ -368,6 +306,84 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaire_instances" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaire_instances" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -433,7 +449,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -455,11 +471,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="questionnaire_instances" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaires" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,7 +546,7 @@
       <recent name="$PROJECT_DIR$/templates/pages/questionnaire_instances" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/Questionnaires/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -501,17 +557,17 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="edit-standalone.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/Questionnaires/edit-standalone.html">
-      <RunnerSettings RunnerId="JavascriptDebugRunner" />
-      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="edit.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/Questionnaires/templates/pages/questionnaire_instances/edit.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
     <configuration default="false" name="edit.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/Questionnaires/templates/pages/questionnaire_instances/standalone/edit.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/Questionnaires/templates/pages/questionnaires/standalone/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -582,17 +638,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.edit-standalone.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.edit-standalone.html (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.edit.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.edit.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.edit.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.edit.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.edit.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.edit-standalone.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.edit.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.edit-standalone.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.edit-standalone.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.edit.html" />
       </list>
     </recent_temporary>
   </component>
@@ -618,13 +674,18 @@
       <created>1439978054840</created>
       <updated>1439978054840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added questionaire's instances management, and rearranged files">
+      <created>1441187809694</created>
+      <updated>1441187809694</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33004552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -640,7 +701,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -663,28 +723,13 @@
     </option>
     <MESSAGE value="Added .gitignore file" />
     <MESSAGE value="Added revision's management" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added revision's management" />
+    <MESSAGE value="Added questionaire's instances management, and rearranged files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added questionaire's instances management, and rearranged files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/answer-edit-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="1" column="80" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/answers-edit-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="1" column="96" selection-start-line="1" selection-start-column="96" selection-end-line="1" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
@@ -765,278 +810,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/elements/actions-bar-button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/answers-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/question-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instances-actions-bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/questions-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/single-choice-answers-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/text-answers-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/answer-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/answers-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/question-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-revision-info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-actions-bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questions-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/template-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/templates-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/file-helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instance-edit-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="1" column="160" selection-start-line="1" selection-start-column="160" selection-end-line="1" selection-end-column="160" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.875" vertical-offset="654" max-vertical-offset="1395">
-          <caret line="85" column="29" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
-          <caret line="0" column="11" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/elements/error-panel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/services/yes-no-cancel-dialog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
-            <marker date="1439555163000" expanded="true" signature="190:290" placeholder="..." />
-            <marker date="1439555163000" expanded="true" signature="571:583" placeholder="..." />
+            <marker date="1439555163000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439555163000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="885">
-          <caret line="25" column="143" selection-start-line="25" selection-start-column="143" selection-end-line="25" selection-end-column="143" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,8 +855,288 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/services/questionnaire-helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8245614" vertical-offset="240" max-vertical-offset="1530">
-          <caret line="63" column="90" selection-start-line="62" selection-start-column="57" selection-end-line="63" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1530">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instances-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="1" column="78" selection-start-line="1" selection-start-column="78" selection-end-line="1" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaire_instances/questionnaire-instance-edit-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/answers-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/question-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/questionnaire-instances-actions-bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/questions-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/single-choice-answers-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/text-answers-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/answer-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/answers-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/question-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-revision-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-actions-bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaires-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questions-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/template-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/templates-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/file-helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1545">
+          <caret line="35" column="101" selection-start-line="35" selection-start-column="101" selection-end-line="35" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/elements/error-panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/elements/actions-bar-button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/elements/error-panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1425">
+          <caret line="32" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="251" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.833334" vertical-offset="187" max-vertical-offset="915">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/standalone/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0541517" vertical-offset="174" max-vertical-offset="1440">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
