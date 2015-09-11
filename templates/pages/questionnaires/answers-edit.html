@@ -1,7 +1,7 @@
 <div class="col-xs-12 no-right-pad no-left-pad">
     <div class="col-xs-12 no-right-pad no-left-pad">
-        <h5 ng-show="question.answers.length > 0">Risposte:</h5>
-        <h5 ng-show="question.answers.length === 0" class="missing-answers">Risposte: nessuna risposta</h5>
+        <h5 ng-show="question.answers.length > 0" style="font-weight: bold;">Risposte:</h5>
+        <h5 ng-show="question.answers.length === 0" class="missing-answers" style="font-weight: bold;">Risposte: nessuna risposta</h5>
     </div>
     <div class="col-xs-12 no-right-pad no-left-pad">
         <div ng-repeat="answer in question.answers">

@@ -24,14 +24,14 @@
 .questionnaire-questions-container {
     position: absolute;
     top: 100px;
-    bottom: 100px;
+    bottom: 150px;
 }
 
 .questionnaire-templates-container {
     position: absolute;
     bottom: 0px;
     z-index: 1;
-    height: 100px;
+    height: 150px;
 }
 
 .question {
@@ -39,6 +39,7 @@
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: yellowgreen;
 }
 
 .question-description {
@@ -51,10 +52,11 @@
 }
 
 .answer {
-    border: 1px black solid;
+    border: 1px darkblue solid;
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: skyblue;
 }
 
 .answer-description {
@@ -133,4 +135,28 @@
     vertical-align: middle;
     text-align: center;
     margin: auto;
+}
+
+.questionFirstLevel {
+    border: 2px black solid;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+
+.questionFirstLevelPosition{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.subQuestionPosition{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.answerPosition
+{
+    font-weight: bold;
+    font-style: italic;
 }

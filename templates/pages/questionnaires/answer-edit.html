@@ -2,7 +2,7 @@
 <!--div class="col-xs-12 answer" ng-class="(questionLevel+1) % 2 === 0 ? 'even-level' : 'odd-level'"-->
     <div class="col-xs-12 no-right-pad no-left-pad">
         <!-- numero della risposta -->
-        <div class="col-xs-1 no-left-pad">{{answer.position + 1}})</div>
+        <div class="col-xs-1 no-left-pad answerPosition">{{answer.position + 1}})</div>
         <!-- descrizione della risposta -->
         <div class="col-xs-8"><textarea name="description" class="col-xs-12 small-right-pad small-left-pad answer-description" ng-class="{'edit-mode':editable}" ng-model="answer.description" placeholder="Inserisci qui la descrizione della risposta...." ng-disabled="!editable" required></textarea></div>
         <div class="col-xs-3 no-right-pad">

@@ -1,9 +1,10 @@
 <div class="col-xs-12 question" ng-class="(questionLevel+1) % 2 === 0 ? (isMouseOver ? 'even-level-selected' : 'even-level') : (isMouseOver ? 'odd-level-selected' : 'odd-level')" ng-mouseenter="isMouseOver = true" ng-mouseleave="isMouseOver = false">
+ <!--div class="col-xs-12 question" ng-class="{'even-level-selected': ((questionLevel+1) % 2 === 0 && isMouseOver),'even-level':((questionLevel+1) % 2 === 0 && !isMouseOver),'odd-level-selected':(!((questionLevel+1) % 2 === 0) && isMouseOver),'odd-level':(!((questionLevel+1) % 2 === 0) && !isMouseOver),questionFirstLevel:(questionLevel === 0)}" ng-mouseenter="isMouseOver = true" ng-mouseleave="isMouseOver = false"-->
 <!--div class="col-xs-12 question" ng-class="(questionLevel+1) % 2 === 0 ? 'even-level' : 'odd-level'"-->
     <div class="col-xs-12 no-right-pad no-left-pad">
         <div class="col-xs-2 no-left-pad">
             <!-- numero della domanda -->
-            <div class="col-xs-2 no-left-pad">{{question.position + 1}})</div>
+            <div class="col-xs-2 no-left-pad" ng-class="(questionLevel === 0) ? 'questionFirstLevelPosition' : 'subQuestionPosition'">{{question.position + 1}})</div>
             <!-- immagine della domanda -->
             <div class="col-xs-10">
                 <!-- immagine di default per l'immagine vuota -->
