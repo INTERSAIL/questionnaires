@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Questionnaires.iws" />
@@ -689,7 +688,11 @@
       <created>1443693366100</created>
       <updated>1443693366100</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions.">
+      <created>1443693568575</created>
+      <updated>1443693568575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
