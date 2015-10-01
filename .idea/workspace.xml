@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Questionnaires.iws" />
@@ -52,16 +51,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
-              <folding />
+              <folding>
+                <marker date="1443693117000" expanded="true" signature="107:115" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiple-choice-answers-instance-edit.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="multiple-choice-answers-instance-edit.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.34254807" vertical-offset="0" max-vertical-offset="832">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -100,8 +101,8 @@
       <file leaf-file-name="answers-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="270">
+              <caret line="3" column="166" selection-start-line="3" selection-start-column="166" selection-end-line="3" selection-end-column="166" />
               <folding />
             </state>
           </provider>
@@ -117,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question-instance-edit.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="question-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3962264" vertical-offset="0" max-vertical-offset="795">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="615">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -189,7 +190,6 @@
         <option value="$PROJECT_DIR$/js/directives/elements/yes-no-radio-button.js" />
         <option value="$PROJECT_DIR$/templates/pages/questionnaires/standalone/index.html" />
         <option value="$PROJECT_DIR$/configuration.js" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/single-choice-answers-instance-edit-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/multiple-choice-answers-instance-edit-controller.js" />
         <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" />
@@ -197,6 +197,7 @@
         <option value="$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js" />
         <option value="$PROJECT_DIR$/js/directives/questionnaire_instances/single-choice-answers-instance-edit.js" />
         <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" />
       </list>
     </option>
   </component>
@@ -684,14 +685,19 @@
       <created>1441360417512</created>
       <updated>1441360417512</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions.">
+      <created>1443693366100</created>
+      <updated>1443693366100</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33004552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33004552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -706,7 +712,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -731,7 +736,8 @@
     <MESSAGE value="Added revision's management" />
     <MESSAGE value="Added questionaire's instances management, and rearranged files" />
     <MESSAGE value="Added questionnaire's index standalone page, and removed constant &quot;configuration.root&quot; (now pages use the &lt;base&gt; tag to define the root for the relative paths)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added questionnaire's index standalone page, and removed constant &quot;configuration.root&quot; (now pages use the &lt;base&gt; tag to define the root for the relative paths)" />
+    <MESSAGE value="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1069,7 +1075,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
-          <folding />
+          <folding>
+            <marker date="1443693117000" expanded="true" signature="107:115" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,14 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
           <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1121,14 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/questions-instance-edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
@@ -1139,11 +1131,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3962264" vertical-offset="0" max-vertical-offset="795">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="615">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="270">
+          <caret line="3" column="166" selection-start-line="3" selection-start-column="166" selection-end-line="3" selection-end-column="166" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/multiple-choice-answers-instance-edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34254807" vertical-offset="0" max-vertical-offset="832">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

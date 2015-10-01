@@ -1,7 +1,7 @@
 <div class="col-xs-12 no-right-pad no-left-pad">
     <text-answers-instance-edit question="question" ng-show="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" question-level="questionLevel" show-answer="parentSelected && isAnswerTypeEqualTo(question.answer_type, 0)"></text-answers-instance-edit>
-    <multiple-choice-answers-instance-edit question="question" ng-show="isAnswerTypeEqualTo(question.answer_type, 1)" editable="editable" question-level="questionLevel" show-answer="parentSelected && isAnswerTypeEqualTo(question.answer_type, 1)"></multiple-choice-answers-instance-edit>
-    <single-choice-answers-instance-edit question="question" ng-show="isAnswerTypeEqualTo(question.answer_type, 2)" editable="editable" question-level="questionLevel" show-answer="parentSelected && isAnswerTypeEqualTo(question.answer_type, 2)"></single-choice-answers-instance-edit>
+    <multiple-choice-answers-instance-edit question="question" ng-show="isAnswerTypeEqualTo(question.answer_type, 1)" editable="editable" question-level="questionLevel"></multiple-choice-answers-instance-edit>
+    <single-choice-answers-instance-edit question="question" ng-show="isAnswerTypeEqualTo(question.answer_type, 2)" editable="editable" question-level="questionLevel"></single-choice-answers-instance-edit>
     <!-- sottodomande -->
     <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin">
         <div ng-repeat="answer in question.answers">
