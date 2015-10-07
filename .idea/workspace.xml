@@ -6,7 +6,7 @@
     </list>
     <ignored path="Questionnaires.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444212178923" ignored="false" />
+    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444212274807" ignored="false" />
     <file path="/a.dummy" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444207857051" ignored="false" />
     <file path="/questionnaire.css" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1442225857522" ignored="false" />
     <file path="/questionnaire-info.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441961863648" ignored="false" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="questionnaire-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,13 +50,8 @@
       <file leaf-file-name="question-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="75" selection-start="3370" selection-end="3370" vertical-scroll-proportion="-22.884615">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="35" column="75" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +59,7 @@
       <file leaf-file-name="questions-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/questions-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,7 +68,7 @@
       <file leaf-file-name="answers-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="-1.9615384">
+            <state line="3" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,16 +77,25 @@
       <file leaf-file-name="single-choice-answers-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="740" selection-end="740" vertical-scroll-proportion="-4.576923">
+            <state line="7" column="18" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multiple-choice-answers-instance-edit.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="multiple-choice-answers-instance-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="122" selection-start="741" selection-end="741" vertical-scroll-proportion="0.22576362">
+            <state line="10" column="115" selection-start="741" selection-end="741" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="6" selection-start="400" selection-end="400" vertical-scroll-proportion="0.2361111">
               <folding />
             </state>
           </provider>
@@ -382,13 +386,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -484,6 +488,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -535,7 +546,11 @@
       <created>1444212190363</created>
       <updated>1444212190363</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="prime modifiche">
+      <created>1444212214184</created>
+      <updated>1444212214184</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -562,10 +577,8 @@
     <frame x="1276" y="-4" width="1608" height="1208" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24414414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34125" sideWeight="0.75585586" order="0" side_tool="false" content_ui="combo" />
@@ -578,6 +591,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -656,65 +671,44 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="74" selection-start="559" selection-end="559" vertical-scroll-proportion="0.3090909">
-          <folding />
-        </state>
+        <state line="16" column="74" selection-start="559" selection-end="559" vertical-scroll-proportion="0.3090909" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/questions-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="81" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.30321047">
-          <folding />
-        </state>
+        <state line="15" column="81" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.30321047" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/answer-edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/questionnaire_instances/questions-instance-edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="64" selection-start="4110" selection-end="4110" vertical-scroll-proportion="0.5605469">
-          <folding />
-        </state>
+        <state line="37" column="64" selection-start="4110" selection-end="4110" vertical-scroll-proportion="0.5605469" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/questionnaire.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="63" selection-start="304" selection-end="304" vertical-scroll-proportion="-1.3508937">
-          <folding />
-        </state>
+        <state line="15" column="63" selection-start="304" selection-end="304" vertical-scroll-proportion="-1.3508937" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/questionnaire-instance.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="60" selection-start="336" selection-end="336" vertical-scroll-proportion="0.28228784">
-          <folding />
-        </state>
+        <state line="18" column="60" selection-start="336" selection-end="336" vertical-scroll-proportion="0.28228784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-edit.html">
@@ -728,27 +722,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="740" selection-end="740" vertical-scroll-proportion="-4.576923">
+        <state line="7" column="18" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="-1.9615384">
+        <state line="3" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="75" selection-start="3370" selection-end="3370" vertical-scroll-proportion="-22.884615">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="35" column="75" selection-start="3388" selection-end="3388" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +757,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="122" selection-start="741" selection-end="741" vertical-scroll-proportion="0.22576362">
+        <state line="10" column="115" selection-start="741" selection-end="741" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="400" selection-end="400" vertical-scroll-proportion="0.2361111">
           <folding />
         </state>
       </provider>
