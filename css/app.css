@@ -51,15 +51,15 @@ body {
 }
 
 .selected {
-    background-color: #fa9132;
+    background-color: #fa9132!important;
 }
 
 .odd-level-selected {
-    background-color: #f4bf90;
+    background-color: #f4bf90!important;
 }
 
 .even-level-selected {
-    background-color: #daa676;
+    background-color: #daa676!important;
 }
 
 .scrollable {
