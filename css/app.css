@@ -125,6 +125,12 @@ body {
 .large-top-margin {
     margin-top: 20px;
 }
+.medium-bottom-margin {
+    margin-bottom: 10px;
+}
+.large-bottom-margin {
+    margin-bottom: 20px;
+}
 
 .left-aligned {
     float: left;
