@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="prime modifiche">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/external/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Questionnaires.iml" afterPath="$PROJECT_DIR$/.idea/Questionnaires.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/directives/questionnaires/question-edit.js" afterPath="$PROJECT_DIR$/js/directives/questionnaires/question-edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Questionnaires.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444904868985" ignored="false" />
+    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444904938179" ignored="false" />
     <file path="/a.dummy" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444904496299" ignored="false" />
     <file path="/questionnaire.css" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1442225857522" ignored="false" />
     <file path="/questionnaire-info.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441961863648" ignored="false" />
     <file path="/questionnaires-list.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441964220501" ignored="false" />
     <file path="/questionnaire-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444814895535" ignored="false" />
-    <file path="/question-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444819335243" ignored="false" />
+    <file path="/question-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444905795944" ignored="false" />
     <file path="/answer-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441965770663" ignored="false" />
     <file path="/questions-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1443428056909" ignored="false" />
     <file path="/answers-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441969086554" ignored="false" />
@@ -29,7 +25,7 @@
     <file path="/answers-instance-edit-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444636633858" ignored="false" />
     <file path="/questionnaires-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444637012769" ignored="false" />
     <file path="/answer-edit-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444637387798" ignored="false" />
-    <file path="/question-edit.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444904455885" ignored="false" />
+    <file path="/question-edit.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444906046597" ignored="false" />
     <file path="/question-edit-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444898504240" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,7 @@
       <file leaf-file-name="question-edit.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.48479086">
+            <state line="4" column="173" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.113144755">
               <folding />
             </state>
           </provider>
@@ -62,7 +58,7 @@
       <file leaf-file-name="question-edit.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/question-edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="95" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+            <state line="19" column="222" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,9 +117,9 @@
         <option value="$PROJECT_DIR$/js/controllers/questionnaires/answer-edit-controller.js" />
         <option value="$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-edit.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" />
-        <option value="$PROJECT_DIR$/js/directives/questionnaires/question-edit.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js" />
+        <option value="$PROJECT_DIR$/js/directives/questionnaires/question-edit.js" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" />
       </list>
     </option>
   </component>
@@ -244,150 +240,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="external" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="external" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="external" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -567,7 +419,11 @@
       <created>1444212738561</created>
       <updated>1444212738561</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Aggiunto file bootstrap.min.js&#10;Aggiunto pulsante per il collapse delle domande">
+      <created>1444904941486</created>
+      <updated>1444904941486</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -592,15 +448,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1288" height="1004" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24392936" sideWeight="0.60625" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24404086" sideWeight="0.60625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291714" sideWeight="0.66796875" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.66796875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25931928" sideWeight="0.6708286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34116694" sideWeight="0.75595915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983308" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33002207" sideWeight="0.33203125" order="7" side_tool="true" content_ui="tabs" />
@@ -665,7 +521,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="prime modifiche" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto file bootstrap.min.js&#10;Aggiunto pulsante per il collapse delle domande" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -683,6 +539,7 @@
     <MESSAGE value="Added revision's management" />
     <MESSAGE value="Added questionaire's instances management, and rearranged files" />
     <MESSAGE value="prime modifiche" />
+    <MESSAGE value="Aggiunto file bootstrap.min.js&#10;Aggiunto pulsante per il collapse delle domande" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -749,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="2579" selection-end="2579" vertical-scroll-proportion="-16.346153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/services/recursion-helper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="55" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.1539855">
@@ -770,6 +620,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="2579" selection-end="2579" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
@@ -779,21 +643,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/question-edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="95" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="222" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.48479086">
+        <state line="4" column="173" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.113144755">
           <folding />
         </state>
       </provider>
