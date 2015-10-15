@@ -1,6 +1,10 @@
 <div class="col-xs-12 question" ng-class="(questionLevel+1) % 2 === 0 ? (isMouseOver ? 'even-level-selected' : 'even-level') : (isMouseOver ? 'odd-level-selected' : 'odd-level')" ng-mouseenter="isMouseOver = true" ng-mouseleave="isMouseOver = false">
  <!--div class="col-xs-12 question" ng-class="{'even-level-selected': ((questionLevel+1) % 2 === 0 && isMouseOver),'even-level':((questionLevel+1) % 2 === 0 && !isMouseOver),'odd-level-selected':(!((questionLevel+1) % 2 === 0) && isMouseOver),'odd-level':(!((questionLevel+1) % 2 === 0) && !isMouseOver),questionFirstLevel:(questionLevel === 0)}" ng-mouseenter="isMouseOver = true" ng-mouseleave="isMouseOver = false"-->
 <!--div class="col-xs-12 question" ng-class="(questionLevel+1) % 2 === 0 ? 'even-level' : 'odd-level'"-->
+    <div class="col-xs-12 no-left-pad no-right-pad medium-bottom-margin">
+        <button class="btn btn-primary col-xs-12 no-right-pad no-left-pad" type="button" data-toggle="collapse" data-target="#{{collapseDivIdentifier}}">Apri/Chiudi Domanda {{question.position +1}}</button>
+    </div>
+    <div id="{{collapseDivIdentifier}}" class="collapse in">
     <div class="col-xs-12 no-right-pad no-left-pad">
         <div class="col-xs-2 no-left-pad">
             <!-- numero della domanda -->
@@ -56,5 +60,6 @@
     <!-- risposte -->
     <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin">
         <answers-edit question="question" ng-hide="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" answer-types="answerTypes" question-level="questionLevel"></answers-edit>
+    </div>
     </div>
 </div>
