@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Questionnaires.iws" />
@@ -713,15 +712,23 @@
       <created>1444730656543</created>
       <updated>1444730656543</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Bugfix: cahnged &quot;answers.questions.length&quot; in &quot;answer.questions.length&quot; in the ng-show directive in single-choice-answers-instance-edit.html">
+      <created>1445956628493</created>
+      <updated>1445956628493</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions.">
+      <created>1445956643919</created>
+      <updated>1445956643919</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33004552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33004552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -760,9 +767,10 @@
     <MESSAGE value="Added revision's management" />
     <MESSAGE value="Added questionaire's instances management, and rearranged files" />
     <MESSAGE value="Added questionnaire's index standalone page, and removed constant &quot;configuration.root&quot; (now pages use the &lt;base&gt; tag to define the root for the relative paths)" />
-    <MESSAGE value="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions." />
     <MESSAGE value="Modified layout in questionnaire's instance's form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified layout in questionnaire's instance's form" />
+    <MESSAGE value="Bugfix: cahnged &quot;answers.questions.length&quot; in &quot;answer.questions.length&quot; in the ng-show directive in single-choice-answers-instance-edit.html" />
+    <MESSAGE value="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfix: when compiling a questionnaire instance, if a question is not selected and it has subquestions with mandatory answers, now the form will result valid. It will result not valid only if that question is selected and no answers are given for the selected subquestions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
