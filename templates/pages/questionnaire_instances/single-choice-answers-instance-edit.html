@@ -5,7 +5,7 @@
             <!-- sottodomande -->
             <div ng-show="answer.selected && answer.questions.length > 0" class="col-xs-12 no-right-pad no-left-pad">
                 <div class="col-xs-12 no-right-pad no-left-pad medium-bottom-margin">
-                    <questions-instance-edit parent="answer" editable="editable" question-level="questionLevel+1" parent-selected="answer.selected" ng-show="answer.selected"></questions-instance-edit>
+                    <questions-instance-edit parent="answer" editable="editable" question-level="questionLevel+1" parent-selected="showAnswer && answer.selected" ng-show="answer.selected"></questions-instance-edit>
                 </div>
             </div>
         </div>
