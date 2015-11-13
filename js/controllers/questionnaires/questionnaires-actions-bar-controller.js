@@ -48,7 +48,7 @@ angular.module('Questionnaire')
 
         // permette di modificare un questionario
         $scope.editQuestionnaire = function() {
-            $scope.questionnaire.status = 10; // lo rimetto in bozza
+            //$scope.questionnaire.status = 10; // lo rimetto in bozza
             $scope.editable = true;
         };
 

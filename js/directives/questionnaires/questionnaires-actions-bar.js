@@ -27,8 +27,13 @@ angular.module("Questionnaire")
                         functionToExecute = function() { scope.refresh(); };
                     else if (button.classList.contains('add-button'))
                         functionToExecute = function() { scope.createNewQuestionnaire(); };
-                    else if (button.classList.contains('edit-button'))
+                    else if (button.classList.contains('edit-button')) {
                         functionToExecute = function() { scope.editQuestionnaire(); };
+                        if (scope.questionnaire.status !== 10) {
+                            message = "Il questionario \"" + scope.questionnaire.title + "\" non &egrave; in bozza. Sar&agrave; possibile modificare soltanto i templates associati a tale questionario. Continuare?";
+                            requiresUserChoice = true;
+                        }
+                    }
                     else if (button.classList.contains('cancel-button')) {
                         message = "Sei sicuro di voler annullare le modifiche?";
                         requiresUserChoice = true;
