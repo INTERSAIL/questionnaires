@@ -6,7 +6,8 @@ angular.module("Questionnaire")
             scope: {
                 question: "=",
                 editable: "=",
-                questionLevel: "="
+                questionLevel: "=",
+                showAnswer: "="
             },
             controller: 'SingleChoiceAnswersInstanceEditController',
             controllerAs: 'questionnaireCtrl',

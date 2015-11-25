@@ -1,97 +1,33 @@
 angular.module("Questionnaire")
-    .factory('QuestionnaireHelper', ['$http', 'configuration', function($http, configuration){
+    .factory('QuestionnaireHelper', ['$http', 'configuration', 'HttpHelper', function($http, configuration, HttpHelper){
         return {
             list: function(handlers) {
-                $http({ method: 'GET', url: configuration.questionnaires_controller_url })
-                    .success(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('successFunction'))
-                            handlers.successFunction(data);
-                    })
-                    .error(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('errorFunction'))
-                            handlers.errorFunction(data);
-                    });
+                HttpHelper.http({ method: 'GET', url: configuration.questionnaires_controller_url }, handlers);
             },
             read: function(questionnaireId, handlers) {
-                $http({ method: 'GET', url: configuration.questionnaires_controller_url + questionnaireId.toString() })
-                    .success(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('successFunction'))
-                            handlers.successFunction(data);
-                    })
-                    .error(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('errorFunction'))
-                            handlers.errorFunction(data);
-                    });
+                HttpHelper.http({ method: 'GET', url: configuration.questionnaires_controller_url + questionnaireId.toString() }, handlers);
             },
             save: function(questionnaire, handlers) {
                 if (questionnaire.id <= 0) {
                     // questionario nuovo: chiamo tramite POST
-                    $http({ method: 'POST', url: configuration.questionnaires_controller_url, headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
-                        .success(function(data, status, headers, config) {
-                            if (handlers && handlers.hasOwnProperty('successFunction'))
-                                handlers.successFunction(data);
-                        })
-                        .error(function(data, status, headers, config) {
-                            if (handlers && handlers.hasOwnProperty('errorFunction'))
-                                handlers.errorFunction(data);
-                        });
+                    HttpHelper.http({ method: 'POST', url: configuration.questionnaires_controller_url, headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire }, handlers);
                 }
                 else {
                     // questionario già esistente: chiamo tramite PUT
-                    $http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString(), headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
-                        .success(function(data, status, headers, config) {
-                            if (handlers && handlers.hasOwnProperty('successFunction'))
-                                handlers.successFunction(data);
-                        })
-                        .error(function(data, status, headers, config) {
-                            if (handlers && handlers.hasOwnProperty('errorFunction'))
-                                handlers.errorFunction(data);
-                        });
+                    HttpHelper.http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString(), headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire }, handlers);
                 }
             },
             delete: function(questionnaire, handlers) {
-                $http({ method: 'DELETE', url: configuration.questionnaires_controller_url + questionnaire.id.toString() })
-                    .success(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('successFunction'))
-                            handlers.successFunction(data);
-                    })
-                    .error(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('errorFunction'))
-                            handlers.errorFunction(data);
-                    });
+                HttpHelper.http({ method: 'DELETE', url: configuration.questionnaires_controller_url + questionnaire.id.toString() }, handlers);
             },
             cancel: function(questionnaireId, handlers) {
-                $http({ method: 'POST', url: configuration.questionnaires_controller_url + questionnaireId.toString() + '/cancel' })
-                    .success(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('successFunction'))
-                            handlers.successFunction(data);
-                    })
-                    .error(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('errorFunction'))
-                            handlers.errorFunction(data);
-                    });
+                HttpHelper.http({ method: 'POST', url: configuration.questionnaires_controller_url + questionnaireId.toString() + '/cancel' }, handlers);
             },
             validate: function(questionnaire, handlers) {
-                $http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString() + '/validate', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
-                    .success(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('successFunction'))
-                            handlers.successFunction(data);
-                    })
-                    .error(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('errorFunction'))
-                            handlers.errorFunction(data);
-                    });
+                HttpHelper.http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString() + '/validate', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire }, handlers);
             },
             revision: function(questionnaire, handlers) {
-                $http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString() + '/revision', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire })
-                    .success(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('successFunction'))
-                            handlers.successFunction(data);
-                    })
-                    .error(function(data, status, headers, config) {
-                        if (handlers && handlers.hasOwnProperty('errorFunction'))
-                            handlers.errorFunction(data);
-                    });
+                HttpHelper.http({ method: 'PUT', url: configuration.questionnaires_controller_url + questionnaire.id.toString() + '/revision', headers: { 'Content-Type' : 'application/json; charset=UTF-8' }, data: questionnaire }, handlers);
             }
         };
     }]);
