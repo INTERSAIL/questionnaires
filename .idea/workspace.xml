@@ -4,17 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/js/services/operation-in-progress-panel.js" line="9" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="Modifica sul bottone Nascondi/Visualizza">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/questionnaire-instance.css" afterPath="$PROJECT_DIR$/css/questionnaire-instance.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" />
+    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Questionnaires.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448621298503" ignored="false" />
+    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448622394545" ignored="false" />
     <file path="/a.dummy" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448622094652" ignored="false" />
     <file path="/questionnaire.css" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448613272954" ignored="false" />
     <file path="/questionnaire-info.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441961863648" ignored="false" />
@@ -646,7 +641,11 @@
       <created>1448617601713</created>
       <updated>1448617601713</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Modifica sul bottone Nascondi/Visualizza">
+      <created>1448622397334</created>
+      <updated>1448622397334</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
