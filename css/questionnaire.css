@@ -35,11 +35,11 @@
 }
 
 .question {
-    border: 1px black solid;
+    border: 1px #0056B2 solid;
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: yellowgreen;
+    background-color: #A2CFFF;
 }
 
 .question-description {
@@ -52,11 +52,11 @@
 }
 
 .answer {
-    border: 1px darkblue solid;
+    border: 1px #FFC24B solid;
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: #FFDD99;
 }
 
 .answer-description {
@@ -138,11 +138,11 @@
 }
 
 .questionFirstLevel {
-    border: 2px black solid;
+    border: 2px #0056B2 solid;
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: yellowgreen;
+    background-color: #A2CFFF;
 }
 
 .questionFirstLevelPosition{

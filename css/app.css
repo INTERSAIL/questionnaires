@@ -43,6 +43,7 @@ body {
     margin-bottom: 5px;
 }
 
+
 .odd-level {
     background-color: #eeeeee;
 }
@@ -156,4 +157,28 @@ body {
 
 .red-text {
     color: red;
+}
+
+
+.operation_in_progress_panel{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color:rgba(64, 64, 64, 0.7);
+    z-index:99;
+    vertical-align:middle;
+}
+
+.operation_in_progress_panel_text{
+    font-size:200%;
+    border: solid;
+    border-radius: 10px;
+    background-color: #cccccc;
+    color: #000000;
+    opacity: 1;
+    width: 40%;
+    height: 10%;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
 }

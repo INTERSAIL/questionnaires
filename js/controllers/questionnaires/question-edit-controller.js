@@ -47,5 +47,4 @@ angular.module('Questionnaire')
         $scope.isAnswerTypeEqualTo = function(question_answer_type, answer_type_id) {
             return question_answer_type === answer_type_id;
         };
-
     }]);
