@@ -9,7 +9,7 @@
     </list>
     <ignored path="Questionnaires.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448614713577" ignored="false" />
+    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448614724375" ignored="false" />
     <file path="/a.dummy" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448613351529" ignored="false" />
     <file path="/questionnaire.css" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448613272954" ignored="false" />
     <file path="/questionnaire-info.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441961863648" ignored="false" />
@@ -567,7 +567,11 @@
       <created>1448614717203</created>
       <updated>1448614717203</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Modifiche sui colori">
+      <created>1448614727850</created>
+      <updated>1448614727850</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
