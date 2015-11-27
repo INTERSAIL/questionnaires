@@ -4,32 +4,40 @@
     <bookmark url="file://$PROJECT_DIR$/js/services/operation-in-progress-panel.js" line="9" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="">
+    <list default="true" id="e1652145-a77b-459c-b7d7-15b6fe2265fa" name="Default" comment="Modifica sul bottone Nascondi/Visualizza">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/questionnaire-instance.css" afterPath="$PROJECT_DIR$/css/questionnaire-instance.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" afterPath="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Questionnaires.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448614724375" ignored="false" />
-    <file path="/a.dummy" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448613351529" ignored="false" />
+    <file path="/Dummy.txt" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448621298503" ignored="false" />
+    <file path="/a.dummy" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448622094652" ignored="false" />
     <file path="/questionnaire.css" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448613272954" ignored="false" />
     <file path="/questionnaire-info.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441961863648" ignored="false" />
     <file path="/questionnaires-list.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441964220501" ignored="false" />
     <file path="/questionnaire-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444814895535" ignored="false" />
-    <file path="/question-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448614620098" ignored="false" />
+    <file path="/question-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448615814988" ignored="false" />
     <file path="/answer-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441965770663" ignored="false" />
     <file path="/questions-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1443428056909" ignored="false" />
     <file path="/answers-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441969086554" ignored="false" />
     <file path="/templates-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1441969159053" ignored="false" />
     <file path="/app.css" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448445152953" ignored="false" />
-    <file path="/question-instance-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444208500199" ignored="false" />
+    <file path="/question-instance-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448622209327" ignored="false" />
     <file path="/template-helper.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444636470045" ignored="false" />
     <file path="/index.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444902174151" ignored="false" />
     <file path="/answers-instance-edit-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444636633858" ignored="false" />
     <file path="/questionnaires-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444637012769" ignored="false" />
     <file path="/answer-edit-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1444637387798" ignored="false" />
-    <file path="/question-edit.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448613804654" ignored="false" />
-    <file path="/question-edit-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448614458042" ignored="false" />
+    <file path="/question-edit.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448617243739" ignored="false" />
+    <file path="/question-edit-controller.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448615458537" ignored="false" />
     <file path="/operation-in-progress-panel.js" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448444290933" ignored="false" />
+    <file path="/questionnaire-instance-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448621082524" ignored="false" />
+    <file path="/multiple-choice-answers-instance-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448622008520" ignored="false" />
+    <file path="/single-choice-answers-instance-edit.html" changelist="e1652145-a77b-459c-b7d7-15b6fe2265fa" time="1448622036291" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +62,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="question-edit.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="question-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="129" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.259542">
+            <state line="8" column="100" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-5.230769">
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -65,28 +73,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question-edit.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/question-edit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="11" selection-start="3606" selection-end="3606" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="37" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="question-edit-controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
+            <state line="15" column="97" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionnaire.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/questionnaire.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="4" selection-start="947" selection-end="973" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionnaire-instance.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/questionnaire-instance.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="42" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question-instance-edit-controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/questionnaire_instances/question-instance-edit-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="questionnaire-instance-edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="81" selection-start="742" selection-end="742" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-choice-answers-instance-edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="45" selection-start="994" selection-end="994" vertical-scroll-proportion="-7.8461537">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question-instance-edit.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="57" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.52577317">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answers-instance-edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="49" selection-start="891" selection-end="891" vertical-scroll-proportion="-3.2692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiple-choice-answers-instance-edit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="72" selection-start="271" selection-end="271" vertical-scroll-proportion="-1.9615384">
               <folding />
             </state>
           </provider>
@@ -114,11 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html" />
-        <option value="$PROJECT_DIR$/js/services/template-helper.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaire_instances/answers-instance-edit-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaires/questionnaires-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaires/answer-edit-controller.js" />
@@ -127,9 +189,14 @@
         <option value="$PROJECT_DIR$/js/services/operation-in-progress-panel.js" />
         <option value="$PROJECT_DIR$/css/app.css" />
         <option value="$PROJECT_DIR$/css/questionnaire.css" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" />
         <option value="$PROJECT_DIR$/js/directives/questionnaires/question-edit.js" />
         <option value="$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js" />
-        <option value="$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html" />
+        <option value="$PROJECT_DIR$/css/questionnaire-instance.css" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html" />
+        <option value="$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html" />
       </list>
     </option>
   </component>
@@ -217,10 +284,6 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -239,6 +302,10 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="questionnaire_instances" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -251,118 +318,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="questionnaires" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,6 +361,118 @@
       <recent name="$PROJECT_DIR$/templates/pages/questionnaire_instances/standalone" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/pages/questionnaires/standalone/index.html</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager">
     <configuration default="false" name="edit-standalone.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/Questionnaires/templates/pages/questionnaire_instances/edit-standalone.html">
@@ -571,7 +638,15 @@
       <created>1448614727850</created>
       <updated>1448614727850</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modifiche sui colori">
+      <created>1448614874568</created>
+      <updated>1448614874568</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modifica sul bottone Nascondi/Visualizza">
+      <created>1448617601713</created>
+      <updated>1448617601713</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -596,20 +671,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1278" height="1004" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24801812" sideWeight="0.6458671" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24744609" sideWeight="0.64542484" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33144155" sideWeight="0.6674837" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33484676" sideWeight="0.6674837" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6715742" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20833333" sideWeight="0.6685585" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24019608" sideWeight="0.6719637" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983308" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33144155" sideWeight="0.33251634" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280363" sideWeight="0.25326797" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.746875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3280363" sideWeight="0.746732" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -669,7 +744,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifiche sui colori" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifica sul bottone Nascondi/Visualizza" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -689,6 +764,7 @@
     <MESSAGE value="prime modifiche" />
     <MESSAGE value="Aggiunto file bootstrap.min.js&#10;Aggiunto pulsante per il collapse delle domande" />
     <MESSAGE value="Modifiche sui colori" />
+    <MESSAGE value="Modifica sul bottone Nascondi/Visualizza" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -696,100 +772,121 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/answer-edit.html">
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="963" selection-end="963" vertical-scroll-proportion="0.26103646" />
+        <state line="16" column="22" selection-start="549" selection-end="687" vertical-scroll-proportion="0.48658317">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="82" selection-start="1470" selection-end="1470" vertical-scroll-proportion="-17.653847" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/questionnaire-revision-info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/questionnaire-edit-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/questions-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/recursion-helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="55" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.1539855" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/answers-edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="513" selection-end="513" vertical-scroll-proportion="0.42123893" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/questionnaire-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="10" selection-start="2579" selection-end="2579" vertical-scroll-proportion="0.7048093" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/http-helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="24" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/operation-in-progress-panel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/external/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15619" selection-start="15784" selection-end="15784" vertical-scroll-proportion="0.12854442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/questionnaire.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="34" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="37" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.0">
+        <state line="88" column="57" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/directives/questionnaires/question-edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="11" selection-start="3606" selection-end="3606" vertical-scroll-proportion="0.0">
+        <state line="51" column="36" selection-start="2655" selection-end="2655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/questionnaires/question-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="129" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.259542">
+        <state line="8" column="100" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-5.230769">
           <folding>
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaires/question-edit-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="97" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/questionnaire.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="4" selection-start="947" selection-end="973" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/questionnaire-instance.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/questionnaire_instances/question-instance-edit-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/answers-instance-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="49" selection-start="891" selection-end="891" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/multiple-choice-answers-instance-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="72" selection-start="271" selection-end="271" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/questionnaire-instance-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="81" selection-start="742" selection-end="742" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/single-choice-answers-instance-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="994" selection-end="994" vertical-scroll-proportion="-7.8461537">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pages/questionnaire_instances/question-instance-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="57" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.52577317">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

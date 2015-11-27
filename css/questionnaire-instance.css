@@ -21,7 +21,7 @@
 }
 
 .question-instance {
-    border: 1px black solid;
+    border: 1px #0056B2 solid;
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
@@ -49,10 +49,11 @@
 }
 
 .answer-instance {
-    border: 0px black solid;
+    border: 0px #FFC24B solid;
     padding: 10px;
     margin-top: 5px;
     border-radius: 10px;
+    background-color: #FFDD99;
 }
 
 .answer-instance-description {

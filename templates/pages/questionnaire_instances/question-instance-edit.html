@@ -18,9 +18,9 @@
         </div>
         <div class="col-xs-12 no-right-pad no-left-pad" ng-hide="question.image"> <!-- non lascio spazio vuoto se non c'è l'immagine -->
             <!-- numero della domanda -->
-            <div class="col-xs-1 no-left-pad" style="font-weight:bold">{{question.position + 1}})</div>
+            <div class="col-xs-1 no-left-pad" style="font-weight:bold; width:25px;">{{question.position + 1}})</div>
             <!-- descrizione della domanda -->
-            <div class="col-xs-11" style="font-weight:bold">{{question.description}} <span class="red-text">{{question.answer_mandatory ? "[RISPOSTA OBBLIGATORIA]" : ""}}</span></div>
+            <div class="col-xs-11" style="font-weight:bold; padding-left: 0;">{{question.description}} <span class="red-text">{{question.answer_mandatory ? "[RISPOSTA OBBLIGATORIA]" : ""}}</span></div>
         </div>
         <!-- input "dummy" che mi permette di forzare la validazione a false della form se la tipologia di risposta è singola o multipla e la risposta è obbligatoria ma non ci sono risposte selezionate -->
         <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="parentSelected && !isAnswerTypeEqualTo(question.answer_type, 0) && question.answer_mandatory && getSelectedAnswers() === 0" style="display:none;">
