@@ -13,11 +13,13 @@ angular.module("Questionnaire")
             controller: 'QuestionEditController',
             controllerAs: 'questionnaireCtrl',
             replace: true,
-            link: function(scope, element, args) {
+            link: function(scope, element, args, parentController) {
 
                 //imposto l'id per il div che ha il collapse: se è una nuova domanda lo creo altrimenti uso l'identifier della domanda
                 // tolgo i . da question.identifier perché altrimenti da problemi e non funziona
                 scope.collapseDivIdentifier = scope.question.identifier ? scope.question.identifier.replace(/\./g, '') : (scope.collapseDivIdentifier ? scope.collapseDivIdentifier : ( 'tmpPrefix_' + new Date().getTime()));
+
+                scope.collapseButtonText = "Nascondi domanda";
 
                 element.find("button.no-question-image-button").on('click', function() {
                     element.find("#inpImage").first().trigger('click');
@@ -79,6 +81,12 @@ angular.module("Questionnaire")
                     scope.$apply(function() {
                         scope.isMouseOver = !atLeastOneSelectedChild;
                     });
+                }
+
+                scope.changeBtnTextCollapse = function (btn){
+                    var btnId = "btn"+btn.collapseDivIdentifier;
+                    parentController.collapseQuestion = !(parentController.collapseQuestion);
+                    scope.collapseButtonText = parentController.collapseQuestion == true ? ("Visualizza domanda: " + scope.question.description) : ("Nascondi domanda");
                 }
             }
         };
