@@ -7,61 +7,61 @@
                 type="button" data-toggle="collapse" data-target="#{{collapseDivIdentifier}}" aria-expanded="true">{{collapseButtonText}}</button>
     </div>
     <div id="{{collapseDivIdentifier}}" class="collapse in">
-    <div class="col-xs-12 no-right-pad no-left-pad">
-        <div class="col-xs-2 no-left-pad">
-            <!-- numero della domanda -->
-            <div class="col-xs-2 no-left-pad" ng-class="(questionLevel === 0) ? 'questionFirstLevelPosition' : 'subQuestionPosition'">{{question.position + 1}})</div>
-            <!-- immagine della domanda -->
-            <div class="col-xs-10">
-                <!-- immagine di default per l'immagine vuota -->
-                <button class="col-xs-12 no-image-button no-question-image-button" title="Aggiungi un'immagine" ng-hide="question.image" ng-disabled="!editable"></button>
-                <!-- elemento per caricare un file -->
-                <input id="inpImage" type="file" accept="image/*" ng-show="false" ng-disabled="!editable">
-                <!-- immagine non vuota: visualizzo immagine e un pulsante per eliminarla -->
-                <div class="col-xs-12 no-right-pad no-left-pad" ng-show="question.image">
-                    <button class="delete-button question-image-delete-button" title="Elimina immagine" ng-click="removeQuestionImage()" ng-show="editable"></button>
-                    <button class="col-xs-12 question-image-button" title="Cambia immagine" ng-disabled="!editable"><img class="col-xs-12 no-right-pad no-left-pad question-image" ng-src="data:image/png;base64,{{question.image}}"></button>
+        <div class="col-xs-12 no-right-pad no-left-pad">
+            <div class="col-xs-2 no-left-pad">
+                <!-- numero della domanda -->
+                <div class="col-xs-2 no-left-pad" ng-class="(questionLevel === 0) ? 'questionFirstLevelPosition' : 'subQuestionPosition'">{{question.position + 1}})</div>
+                <!-- immagine della domanda -->
+                <div class="col-xs-10">
+                    <!-- immagine di default per l'immagine vuota -->
+                    <button class="col-xs-12 no-image-button no-question-image-button" title="Aggiungi un'immagine" ng-hide="question.image" ng-disabled="!editable"></button>
+                    <!-- elemento per caricare un file -->
+                    <input id="inpImage" type="file" accept="image/*" ng-show="false" ng-disabled="!editable">
+                    <!-- immagine non vuota: visualizzo immagine e un pulsante per eliminarla -->
+                    <div class="col-xs-12 no-right-pad no-left-pad" ng-show="question.image">
+                        <button class="delete-button question-image-delete-button" title="Elimina immagine" ng-click="removeQuestionImage()" ng-show="editable"></button>
+                        <button class="col-xs-12 question-image-button" title="Cambia immagine" ng-disabled="!editable"><img class="col-xs-12 no-right-pad no-left-pad question-image" ng-src="data:image/png;base64,{{question.image}}"></button>
+                    </div>
+                </div>
+            </div>
+            <!-- descrizione della domanda -->
+            <div class="col-xs-9"><textarea name="description" class="col-xs-12 small-right-pad small-left-pad question-description" ng-class="{'edit-mode':editable}" ng-model="question.description" placeholder="Inserisci qui la descrizione della domanda...." ng-disabled="!editable" ng-required="questionLevel > 0"></textarea></div>
+            <div class="col-xs-1 no-right-pad">
+                <div ng-show="editable">
+                    <!-- pulsante per eliminare la domanda -->
+                    <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button delete-button medium-button" title="Elimina domanda" ng-click="removeQuestion()"></button></div>
+                    <!-- pulsante per spostare la domanda ad una posizione precedente -->
+                    <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button move-up-button" ng-class="{'opaque':question.position === 0}" title="Sposta domanda prima" ng-click="moveUpQuestion()" ng-disabled="question.position === 0"></button></div>
+                    <!-- pulsante per spostare la domanda ad una posizione successiva -->
+                    <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button move-down-button" ng-class="{'opaque':question.position === parent.questions.length-1}" title="Sposta domanda dopo" ng-click="moveDownQuestion()" ng-disabled="question.position === parent.questions.length-1"></button></div>
                 </div>
             </div>
         </div>
-        <!-- descrizione della domanda -->
-        <div class="col-xs-9"><textarea name="description" class="col-xs-12 small-right-pad small-left-pad question-description" ng-class="{'edit-mode':editable}" ng-model="question.description" placeholder="Inserisci qui la descrizione della domanda...." ng-disabled="!editable" ng-required="questionLevel > 0"></textarea></div>
-        <div class="col-xs-1 no-right-pad">
-            <div ng-show="editable">
-                <!-- pulsante per eliminare la domanda -->
-                <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button delete-button medium-button" title="Elimina domanda" ng-click="removeQuestion()"></button></div>
-                <!-- pulsante per spostare la domanda ad una posizione precedente -->
-                <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button move-up-button" ng-class="{'opaque':question.position === 0}" title="Sposta domanda prima" ng-click="moveUpQuestion()" ng-disabled="question.position === 0"></button></div>
-                <!-- pulsante per spostare la domanda ad una posizione successiva -->
-                <div class="col-xs-12 no-right-pad no-left-pad"><button class="col-xs-12 no-right-pad no-left-pad generic-button medium-button move-down-button" ng-class="{'opaque':question.position === parent.questions.length-1}" title="Sposta domanda dopo" ng-click="moveDownQuestion()" ng-disabled="question.position === parent.questions.length-1"></button></div>
-            </div>
-        </div>
-    </div>
-    <div class="col-xs-12 no-right-pad no-left-pad large-top-margin">
-        <div class="col-xs-2 no-left-pad"></div>
-        <div class="col-xs-9 no-right-pad">
-            <!-- tipo della risposta -->
-            <div class="col-xs-6 no-right-pad no-left-pad">
-                <div class="col-xs-4 no-left-pad">Tipo risposta:</div>
-                <div class="col-xs-8 no-right-pad">
-                    <select class="col-xs-8 no-right-pad no-left-pad" ng-class="{'edit-mode':editable}" name="answer_type" ng-model="question.answer_type" ng-options="obj.id as obj.description for obj in answerTypes" ng-disabled="!editable"></select>
+        <div class="col-xs-12 no-right-pad no-left-pad large-top-margin">
+            <div class="col-xs-2 no-left-pad"></div>
+            <div class="col-xs-9 no-right-pad">
+                <!-- tipo della risposta -->
+                <div class="col-xs-6 no-right-pad no-left-pad">
+                    <div class="col-xs-4 no-left-pad">Tipo risposta:</div>
+                    <div class="col-xs-8 no-right-pad">
+                        <select class="col-xs-8 no-right-pad no-left-pad" ng-class="{'edit-mode':editable}" name="answer_type" ng-model="question.answer_type" ng-options="obj.id as obj.description for obj in answerTypes" ng-disabled="!editable"></select>
+                    </div>
+                </div>
+                <!-- obbligatorietà risposta -->
+                <div class="col-xs-6 no-right-pad no-left-pad">
+                    <div class="col-xs-4 no-left-pad">Risp. obbligatoria:</div>
+                    <div class="col-xs-8 no-right-pad">
+                        <yes-no-radio-button field="question.answer_mandatory" editable="editable"></yes-no-radio-button>
+                    </div>
                 </div>
             </div>
-            <!-- obbligatorietà risposta -->
-            <div class="col-xs-6 no-right-pad no-left-pad">
-                <div class="col-xs-4 no-left-pad">Risp. obbligatoria:</div>
-                <div class="col-xs-8 no-right-pad">
-                    <yes-no-radio-button field="question.answer_mandatory" editable="editable"></yes-no-radio-button>
-                </div>
-            </div>
+            <div class="col-xs-1 no-right-pad"></div>
         </div>
-        <div class="col-xs-1 no-right-pad"></div>
-    </div>
-    <!-- input "dummy" che mi permette di forzare la validazione a false della form se la tipologia di risposta è singola o multipla ma non ci sono risposte inserite -->
-    <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="!isAnswerTypeEqualTo(question.answer_type, 0) && question.answers.length === 0" style="display:none;">
-    <!-- risposte -->
-    <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin">
-        <answers-edit question="question" ng-hide="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" answer-types="answerTypes" question-level="questionLevel"></answers-edit>
-    </div>
+        <!-- input "dummy" che mi permette di forzare la validazione a false della form se la tipologia di risposta è singola o multipla ma non ci sono risposte inserite -->
+        <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="!isAnswerTypeEqualTo(question.answer_type, 0) && question.answers.length === 0" style="display:none;">
+        <!-- risposte -->
+        <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin">
+            <answers-edit question="question" ng-hide="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" answer-types="answerTypes" question-level="questionLevel"></answers-edit>
+        </div>
     </div>
 </div>

@@ -6,7 +6,7 @@ angular.module('Questionnaire')
         // <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="!isAnswerTypeEqualTo(question.answer_type, 0) && question.answers.length === 0" style="display:none;">
         // così da rendere la form non valida se non si inseriscono risposte per quelle due categorie
         $scope.dummyNoAnswers = null;
-        $scope.collapseQuestion = false;
+        //$scope.collapseQuestion = false;
 
         // rimuove una domanda
         $scope.removeQuestion = function() {

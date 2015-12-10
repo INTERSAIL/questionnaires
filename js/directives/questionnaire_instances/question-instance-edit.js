@@ -37,6 +37,18 @@ angular.module("Questionnaire")
                         scope.isMouseOver = !atLeastOneSelectedChild;
                     });
                 }
+
+                //imposto l'id per il div che ha il collapse: se è una nuova domanda lo creo altrimenti uso l'identifier della domanda
+                // tolgo i . da question.identifier perché altrimenti da problemi e non funziona
+                scope.collapseDivIdentifier = scope.question.identifier ? scope.question.identifier.replace(/\./g, '') : (scope.collapseDivIdentifier ? scope.collapseDivIdentifier : ( 'tmpPrefix_' + new Date().getTime()));
+                scope.collapseButtonText = "Nascondi domanda";
+                scope.collapseQuestion = false;
+
+                scope.changeBtnTextCollapse = function (btn){
+                    //var btnId = "btn"+btn.collapseDivIdentifier;
+                    scope.collapseQuestion = !(scope.collapseQuestion);
+                    scope.collapseButtonText = scope.collapseQuestion == true ? ("Visualizza domanda: " + scope.question.description) : ("Nascondi domanda");
+                }
             }
         };
     });
