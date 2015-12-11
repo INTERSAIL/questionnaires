@@ -12,11 +12,7 @@ angular.module("Questionnaire")
             controller: 'QuestionnaireInstanceEditController',
             controllerAs: 'questionnaireCtrl',
             link: function(scope, element, attrs) {
-                scope.editable = true;
 
-                scope.$watch('frmQuestionnaire.$valid', function(validity) {
-                    scope.questionnaireInstanceValid = validity;
-                });
             }
         };
     });
