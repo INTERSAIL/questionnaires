@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("questionnaireRevisionInfo", function() {
+    .directive("questionnaireRevisionInfo", function(configuration) {
         return {
             restrict: 'E',
-            templateUrl: 'templates/pages/questionnaires/questionnaire-revision-info.html',
+            templateUrl: configuration.questionnaire_root + 'templates/pages/questionnaires/questionnaire-revision-info.html',
             scope: {
                 questionnaireRevision: "=",
                 editable: "="

@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("errorPanel", function() {
+    .directive("errorPanel", function(configuration) {
         return {
             restrict: 'E',
-            templateUrl: 'templates/elements/error-panel.html',
+            templateUrl: configuration.questionnaire_root + 'templates/elements/error-panel.html',
             //templateUrl: 'templates/elements/error-panel.html',
             scope: {
                 errors: "="

@@ -1,8 +1,8 @@
 angular.module("Questionnaire")
-    .directive("questionInstanceEdit", function() {
+    .directive("questionInstanceEdit", function(configuration) {
         return {
             restrict: 'E',
-            templateUrl: 'templates/pages/questionnaire_instances/question-instance-edit.html',
+            templateUrl: configuration.questionnaire_root + 'templates/pages/questionnaire_instances/question-instance-edit.html',
             scope: {
                 parent: "=",
                 question: "=",
