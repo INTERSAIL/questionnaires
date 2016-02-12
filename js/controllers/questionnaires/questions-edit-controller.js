@@ -7,6 +7,7 @@ angular.module('Questionnaire')
                 "id": 0,
                 "answer_type": 0,
                 "answer_mandatory": false,
+                "answers_layout": 1,
                 "description": null,
                 "image": null,
                 "answers": new Array()

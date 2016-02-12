@@ -5,6 +5,7 @@ angular.module("Questionnaire")
             templateUrl: configuration.questionnaire_root + 'templates/pages/questionnaires/question-edit.html',
             scope: {
                 answerTypes: "=",
+                answersLayouts: "=",
                 parent: "=",
                 question: "=",
                 editable: "=",

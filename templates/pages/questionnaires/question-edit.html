@@ -57,11 +57,25 @@
             </div>
             <div class="col-xs-1 no-right-pad"></div>
         </div>
+        <div class="col-xs-12 no-right-pad no-left-pad large-top-margin">
+            <div class="col-xs-2 no-left-pad"></div>
+            <div class="col-xs-9 no-right-pad">
+                <!-- layout delle risposte -->
+                <div class="col-xs-6 no-right-pad no-left-pad">
+                    <div class="col-xs-4 no-left-pad">Layout risposte:</div>
+                    <div class="col-xs-8 no-right-pad">
+                        <select class="col-xs-8 no-right-pad no-left-pad" ng-class="{'edit-mode':editable}" name="answers_layout" ng-model="question.answers_layout" ng-options="obj.id as obj.description for obj in answersLayouts" ng-disabled="!editable"></select>
+                    </div>
+                </div>
+                <div class="col-xs-6 no-right-pad no-left-pad"></div>
+            </div>
+            <div class="col-xs-1 no-right-pad"></div>
+        </div>
         <!-- input "dummy" che mi permette di forzare la validazione a false della form se la tipologia di risposta è singola o multipla ma non ci sono risposte inserite -->
         <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="!isAnswerTypeEqualTo(question.answer_type, 0) && question.answers.length === 0" style="display:none;">
         <!-- risposte -->
         <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin">
-            <answers-edit question="question" ng-hide="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" answer-types="answerTypes" question-level="questionLevel"></answers-edit>
+            <answers-edit question="question" ng-hide="isAnswerTypeEqualTo(question.answer_type, 0)" editable="editable" answer-types="answerTypes" answers-layouts="answersLayouts" question-level="questionLevel"></answers-edit>
         </div>
     </div>
 </div>
