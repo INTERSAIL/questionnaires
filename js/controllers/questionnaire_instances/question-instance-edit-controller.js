@@ -26,7 +26,7 @@ angular.module('Questionnaire')
                     });
                     if (selectedAnswer != null)
                         $scope.question.selectedAnswer = selectedAnswer.position;
-                    else $scope.question.selectedAnswer = 0;
+                    else $scope.question.selectedAnswer = -1;
                 }
                 else if ($scope.isAnswerTypeEqualTo(newValue.answer_type, 1)) {
                     angular.forEach(newValue.answers, function (value, key) {
