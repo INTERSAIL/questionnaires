@@ -11,7 +11,7 @@
             </div-->
         </div>
         <!-- sottodomande in caso di risposta singola -->
-        <div class="col-xs-12 no-right-pad no-left-pad"  ng-repeat="answer in question.answers">
+        <div class="col-xs-12 no-right-pad no-left-pad"  ng-repeat="answer in question.answers" style="min-height:0px;">
             <div ng-show="showAnswer && answer.selected && answer.questions.length > 0" class="col-xs-12 no-right-pad no-left-pad">
                 <div class="col-xs-12 no-right-pad no-left-pad medium-bottom-margin">
                     <questions-instance-edit parent="answer" editable="editable" question-level="questionLevel+1" parent-selected="showAnswer && answer.selected" ng-show="showAnswer && answer.selected"></questions-instance-edit>

@@ -1,6 +1,6 @@
 <div class="col-xs-12 question-instance" ng-class="(questionLevel+1) % 2 === 0 ? (isMouseOver ? 'even-level-selected' : 'even-level') : (isMouseOver ? 'odd-level-selected' : 'odd-level')" ng-mouseenter="isMouseOver = true" ng-mouseleave="isMouseOver = false">
 <!--div class="col-xs-12 question-instance" ng-class="(questionLevel+1) % 2 === 0 ? 'even-level' : 'odd-level'"-->
-    <div class="col-xs-12 no-left-pad no-right-pad medium-bottom-margin">
+    <div class="col-xs-12 no-left-pad no-right-pad">
         <button id="btn{{collapseDivIdentifier}}" class="btn btn-primary col-xs-12 no-right-pad no-left-pad"
                 ng-click="changeBtnTextCollapse(this)"
                 type="button" data-toggle="collapse" data-target="#{{collapseDivIdentifier}}" aria-expanded="true">{{collapseButtonText}}</button>
@@ -31,7 +31,7 @@
             <!-- input "dummy" che mi permette di forzare la validazione a false della form se la tipologia di risposta è singola o multipla e la risposta è obbligatoria ma non ci sono risposte selezionate -->
             <input type="text" ng-model="questionnaireCtrl.dummyNoAnswers" ng-required="parentSelected && !isAnswerTypeEqualTo(question.answer_type, 0) && question.answer_mandatory && getSelectedAnswers() === 0" style="display:none;">
             <!-- risposte -->
-            <div class="col-xs-12 no-right-pad no-left-pad large-left-pad large-top-margin" ng-show="question.answers.length > 0">
+            <div class="col-xs-12 no-right-pad no-left-pad large-left-pad" ng-show="question.answers.length > 0">
                 <answers-instance-edit question="question" editable="editable" question-level="questionLevel" parent-selected="parentSelected"></answers-instance-edit>
             </div>
         </div>
