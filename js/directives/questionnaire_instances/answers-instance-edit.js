@@ -11,11 +11,11 @@ angular.module("Questionnaire")
             },
             controller: 'AnswersInstanceEditController',
             controllerAs: 'questionnaireCtrl',
-            replace: true,
+            replace: true/*,
             compile: function(element) {
                 // Use the compile function from the RecursionHelper,
                 // And return the linking function(s) which it returns
                 return RecursionHelper.compile(element);
-            }
+            }*/
         };
     });

@@ -3,7 +3,7 @@
     <div class="col-xs-12 no-left-pad no-right-pad">
         <button id="btn{{collapseDivIdentifier}}" class="btn btn-primary col-xs-12 no-right-pad no-left-pad"
                 ng-click="changeBtnTextCollapse(this)"
-                type="button" data-toggle="collapse" data-target="#{{collapseDivIdentifier}}" aria-expanded="true">{{collapseButtonText}}</button>
+                type="button" data-toggle="collapse" data-target="#{{collapseDivIdentifier}}" aria-expanded="true" aria-controls="{{collapseDivIdentifier}}">{{collapseButtonText}}</button>
     </div>
     <div id="{{collapseDivIdentifier}}" class="collapse in">
         <div ng-class="question.note ? 'question-instance-with-note' : 'no-right-pad'" class="col-xs-12 no-left-pad container">

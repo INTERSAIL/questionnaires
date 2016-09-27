@@ -48,7 +48,21 @@ angular.module("Questionnaire")
                     //var btnId = "btn"+btn.collapseDivIdentifier;
                     scope.collapseQuestion = !(scope.collapseQuestion);
                     scope.collapseButtonText = scope.collapseQuestion == true ? ("Visualizza domanda: " + scope.question.description) : ("Nascondi domanda");
-                }
+                    if(scope.questionLevel > 0) // aggiunto perché per qualche motivo per le sottodomande collapse di bootstrap non funziona
+                    {
+                        if(scope.collapseQuestion == true)
+                        {
+                            var elemt = element.find("#"+scope.collapseDivIdentifier);
+                            elemt.removeAttr('class');
+                            elemt.addClass("collapse");
+                        }
+                        else {
+                            var elemt = element.find("#" + scope.collapseDivIdentifier)
+                            elemt.removeAttr('class');
+                            elemt.addClass("collapse in");
+                        }
+                    }
+                  }
             }
         };
     });
