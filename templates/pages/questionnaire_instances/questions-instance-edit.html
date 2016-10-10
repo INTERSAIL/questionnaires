@@ -1,7 +1,5 @@
 <div class="col-xs-12 no-right-pad no-left-pad">
-    <div class="col-xs-12 no-right-pad no-left-pad">
-        <div ng-repeat="question in parent.questions">
+        <div ng-repeat="question in parent.questions track by question.id">
             <question-instance-edit parent="parent" question="question" editable="editable" question-level="questionLevel" parent-selected="parentSelected"></question-instance-edit>
         </div>
-    </div>
 </div>

@@ -41,14 +41,14 @@ angular.module("Questionnaire")
                 //imposto l'id per il div che ha il collapse: se è una nuova domanda lo creo altrimenti uso l'identifier della domanda
                 // tolgo i . da question.identifier perché altrimenti da problemi e non funziona
                 scope.collapseDivIdentifier = scope.question.identifier ? scope.question.identifier.replace(/\./g, '') : (scope.collapseDivIdentifier ? scope.collapseDivIdentifier : ( 'tmpPrefix_' + new Date().getTime()));
-                scope.collapseButtonText = "Nascondi domanda";
                 scope.collapseQuestion = false;
+                scope.collapseButtonText = "Nascondi domanda";
 
                 scope.changeBtnTextCollapse = function (btn){
                     //var btnId = "btn"+btn.collapseDivIdentifier;
                     scope.collapseQuestion = !(scope.collapseQuestion);
                     scope.collapseButtonText = scope.collapseQuestion == true ? ("Visualizza domanda: " + scope.question.description) : ("Nascondi domanda");
-                    if(scope.questionLevel > 0) // aggiunto perché per qualche motivo per le sottodomande collapse di bootstrap non funziona
+                  /*  if(scope.questionLevel > 0) // aggiunto perché per qualche motivo per le sottodomande collapse di bootstrap non funziona
                     {
                         if(scope.collapseQuestion == true)
                         {
@@ -61,7 +61,7 @@ angular.module("Questionnaire")
                             elemt.removeAttr('class');
                             elemt.addClass("collapse in");
                         }
-                    }
+                    }*/
                   }
             }
         };
